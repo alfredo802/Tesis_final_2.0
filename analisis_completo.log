@@ -5685,3 +5685,689 @@ Análisis completado. Se han generado los siguientes archivos:
 2025-05-22 22:30:28,187 - INFO - 127.0.0.1 - - [22/May/2025 22:30:28] "GET / HTTP/1.1" 200 -
 2025-05-22 22:30:28,267 - INFO - 127.0.0.1 - - [22/May/2025 22:30:28] "GET /static/css/style.css HTTP/1.1" 200 -
 2025-05-22 22:30:28,274 - INFO - 127.0.0.1 - - [22/May/2025 22:30:28] "GET /static/js/main.js HTTP/1.1" 200 -
+2025-05-22 23:16:05,826 - INFO -  * Detected change in 'C:\\Users\\herre\\OneDrive\\Documents\\p_final\\proyecto\\config.py', reloading
+2025-05-22 23:16:07,937 - INFO -  * Restarting with stat
+2025-05-22 23:16:10,615 - WARNING -  * Debugger is active!
+2025-05-22 23:16:10,618 - INFO -  * Debugger PIN: 121-056-040
+2025-05-22 23:28:57,692 - INFO - Iniciando ejecución completa: 2025-05-22 23:28:57
+2025-05-22 23:28:57,693 - INFO - ==================================================
+2025-05-22 23:28:57,693 - INFO - INICIANDO ANÁLISIS BÁSICO DE SENSORES
+2025-05-22 23:28:57,694 - INFO - ==================================================
+2025-05-22 23:28:57,695 - INFO - [OK] Análisis básico de sensores completado exitosamente. Reporte generado: reportes/reporte_sensores_20250522_232857.txt
+2025-05-22 23:28:57,695 - INFO - ==================================================
+2025-05-22 23:28:57,696 - INFO - INICIANDO CONTROL DE CALIDAD
+2025-05-22 23:28:57,696 - INFO - ==================================================
+2025-05-22 23:29:00,511 - INFO - [OK] Control de calidad completado exitosamente. Reporte generado: reportes/reporte_control_calidad_20250522_232900.txt
+2025-05-22 23:29:00,511 - INFO - ==================================================
+2025-05-22 23:29:00,512 - INFO - INICIANDO ANÁLISIS DE PRONÓSTICOS
+2025-05-22 23:29:00,512 - INFO - ==================================================
+2025-05-22 23:29:00,512 - INFO - Procesando datos para pronósticos...
+2025-05-22 23:29:00,615 - INFO - Datos procesados guardados en datos_procesados/datos_procesados.csv
+2025-05-22 23:29:00,616 - INFO - Registros procesados: 399
+2025-05-22 23:29:19,087 - INFO - [OK] Análisis de pronósticos completado exitosamente. Reporte generado: reportes/reporte_pronosticos_20250522_232919.txt
+2025-05-22 23:29:19,087 - INFO - ==================================================
+2025-05-22 23:29:19,087 - INFO - RESUMEN DE EJECUCIÓN
+2025-05-22 23:29:19,088 - INFO - ==================================================
+2025-05-22 23:29:19,088 - INFO - Tiempo total de ejecución: 21.39 segundos
+2025-05-22 23:29:19,089 - INFO - Reporte final generado: reportes/reporte_resumen_final_20250522_232919.txt
+2025-05-22 23:29:19,090 - INFO - 
+[OK] Todos los análisis se completaron exitosamente
+2025-05-22 23:29:19,155 - INFO - 127.0.0.1 - - [22/May/2025 23:29:19] "GET / HTTP/1.1" 200 -
+2025-05-22 23:29:19,619 - INFO - 127.0.0.1 - - [22/May/2025 23:29:19] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+2025-05-22 23:29:19,620 - INFO - 127.0.0.1 - - [22/May/2025 23:29:19] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-05-22 23:30:12,435 - INFO - 127.0.0.1 - - [22/May/2025 23:30:12] "GET / HTTP/1.1" 200 -
+2025-05-22 23:30:12,620 - INFO - 127.0.0.1 - - [22/May/2025 23:30:12] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-05-22 23:30:12,774 - INFO - 127.0.0.1 - - [22/May/2025 23:30:12] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+2025-05-22 23:30:17,356 - INFO - 127.0.0.1 - - [22/May/2025 23:30:17] "GET /api/pronostico/hoy HTTP/1.1" 200 -
+2025-05-22 23:30:22,108 - INFO - 127.0.0.1 - - [22/May/2025 23:30:22] "GET /login HTTP/1.1" 200 -
+2025-05-22 23:30:32,960 - INFO - 127.0.0.1 - - [22/May/2025 23:30:32] "[32mPOST /login HTTP/1.1[0m" 302 -
+2025-05-22 23:30:33,215 - INFO - 127.0.0.1 - - [22/May/2025 23:30:33] "GET /admin HTTP/1.1" 200 -
+2025-05-22 23:30:33,273 - INFO - 127.0.0.1 - - [22/May/2025 23:30:33] "GET /admin/imagenes HTTP/1.1" 200 -
+2025-05-22 23:30:33,577 - INFO - 127.0.0.1 - - [22/May/2025 23:30:33] "GET /admin/reportes HTTP/1.1" 200 -
+2025-05-22 23:30:33,587 - INFO - 127.0.0.1 - - [22/May/2025 23:30:33] "GET /admin/historial_consultas HTTP/1.1" 200 -
+2025-05-22 23:30:33,602 - INFO - 127.0.0.1 - - [22/May/2025 23:30:33] "GET /resultados/analisis_humedad.png HTTP/1.1" 200 -
+2025-05-22 23:30:33,679 - INFO - 127.0.0.1 - - [22/May/2025 23:30:33] "GET /admin/alertas HTTP/1.1" 200 -
+2025-05-22 23:30:33,699 - INFO - 127.0.0.1 - - [22/May/2025 23:30:33] "GET /resultados/analisis_temp_agua.png HTTP/1.1" 200 -
+2025-05-22 23:30:33,700 - INFO - 127.0.0.1 - - [22/May/2025 23:30:33] "GET /resultados/analisis_presion.png HTTP/1.1" 200 -
+2025-05-22 23:30:33,900 - INFO - 127.0.0.1 - - [22/May/2025 23:30:33] "GET /resultados/analisis_temp_aire.png HTTP/1.1" 200 -
+2025-05-22 23:30:33,922 - INFO - 127.0.0.1 - - [22/May/2025 23:30:33] "GET /resultados/analisis_vega.png HTTP/1.1" 200 -
+2025-05-22 23:30:33,997 - INFO - 127.0.0.1 - - [22/May/2025 23:30:33] "[36mGET /resultados/Graficos_Control_Sensores.png HTTP/1.1[0m" 304 -
+2025-05-22 23:30:34,014 - INFO - 127.0.0.1 - - [22/May/2025 23:30:34] "GET /resultados/analisis_marea.png HTTP/1.1" 200 -
+2025-05-22 23:30:34,027 - INFO - 127.0.0.1 - - [22/May/2025 23:30:34] "[36mGET /resultados/Control_Calidad.png HTTP/1.1[0m" 304 -
+2025-05-22 23:30:34,047 - INFO - 127.0.0.1 - - [22/May/2025 23:30:34] "GET /resultados/analisis_keller.png HTTP/1.1" 200 -
+2025-05-22 23:30:34,230 - INFO - 127.0.0.1 - - [22/May/2025 23:30:34] "[36mGET /resultados/matriz_correlacion.png HTTP/1.1[0m" 304 -
+2025-05-22 23:30:34,239 - INFO - 127.0.0.1 - - [22/May/2025 23:30:34] "[36mGET /resultados/Correlacion_Sensores.png HTTP/1.1[0m" 304 -
+2025-05-22 23:30:34,304 - INFO - 127.0.0.1 - - [22/May/2025 23:30:34] "[36mGET /resultados/todos_sensores_combinado.png HTTP/1.1[0m" 304 -
+2025-05-22 23:30:34,325 - INFO - 127.0.0.1 - - [22/May/2025 23:30:34] "[36mGET /resultados/graficos_sensores.png HTTP/1.1[0m" 304 -
+2025-05-22 23:30:34,334 - INFO - 127.0.0.1 - - [22/May/2025 23:30:34] "[36mGET /resultados/dispersion_humedad_ml.png HTTP/1.1[0m" 304 -
+2025-05-22 23:30:34,360 - INFO - 127.0.0.1 - - [22/May/2025 23:30:34] "[36mGET /resultados/pronostico_humedad_completo.png HTTP/1.1[0m" 304 -
+2025-05-22 23:30:34,545 - INFO - 127.0.0.1 - - [22/May/2025 23:30:34] "[36mGET /resultados/dispersion_presion_ml.png HTTP/1.1[0m" 304 -
+2025-05-22 23:30:34,550 - INFO - 127.0.0.1 - - [22/May/2025 23:30:34] "[36mGET /resultados/pronostico_presion_completo.png HTTP/1.1[0m" 304 -
+2025-05-22 23:30:34,610 - INFO - 127.0.0.1 - - [22/May/2025 23:30:34] "[36mGET /resultados/dispersion_vega_ml.png HTTP/1.1[0m" 304 -
+2025-05-22 23:30:34,637 - INFO - 127.0.0.1 - - [22/May/2025 23:30:34] "[36mGET /resultados/dispersion_keller_ml.png HTTP/1.1[0m" 304 -
+2025-05-22 23:30:34,639 - INFO - 127.0.0.1 - - [22/May/2025 23:30:34] "[36mGET /resultados/pronostico_keller_completo.png HTTP/1.1[0m" 304 -
+2025-05-22 23:30:34,673 - INFO - 127.0.0.1 - - [22/May/2025 23:30:34] "[36mGET /resultados/pronostico_vega_completo.png HTTP/1.1[0m" 304 -
+2025-05-22 23:30:34,878 - INFO - 127.0.0.1 - - [22/May/2025 23:30:34] "[36mGET /resultados/dispersion_temp_agua_ml.png HTTP/1.1[0m" 304 -
+2025-05-22 23:30:34,899 - INFO - 127.0.0.1 - - [22/May/2025 23:30:34] "[36mGET /resultados/pronostico_temp_agua_completo.png HTTP/1.1[0m" 304 -
+2025-05-22 23:30:34,918 - INFO - 127.0.0.1 - - [22/May/2025 23:30:34] "[36mGET /resultados/dispersion_temp_aire_ml.png HTTP/1.1[0m" 304 -
+2025-05-22 23:30:34,947 - INFO - 127.0.0.1 - - [22/May/2025 23:30:34] "[36mGET /resultados/pronostico_temp_aire_completo.png HTTP/1.1[0m" 304 -
+2025-05-22 23:30:34,952 - INFO - 127.0.0.1 - - [22/May/2025 23:30:34] "[36mGET /resultados/dispersion_vega.png HTTP/1.1[0m" 304 -
+2025-05-22 23:30:34,987 - INFO - 127.0.0.1 - - [22/May/2025 23:30:34] "[36mGET /resultados/pronostico_vega.png HTTP/1.1[0m" 304 -
+2025-05-22 23:30:35,209 - INFO - 127.0.0.1 - - [22/May/2025 23:30:35] "[36mGET /resultados/pronostico_keller.png HTTP/1.1[0m" 304 -
+2025-05-22 23:30:35,212 - INFO - 127.0.0.1 - - [22/May/2025 23:30:35] "[36mGET /resultados/dispersion_keller.png HTTP/1.1[0m" 304 -
+2025-05-22 23:30:35,223 - INFO - 127.0.0.1 - - [22/May/2025 23:30:35] "[36mGET /resultados/pronostico_presion.png HTTP/1.1[0m" 304 -
+2025-05-22 23:30:35,264 - INFO - 127.0.0.1 - - [22/May/2025 23:30:35] "[36mGET /resultados/dispersion_presion.png HTTP/1.1[0m" 304 -
+2025-05-22 23:30:35,265 - INFO - 127.0.0.1 - - [22/May/2025 23:30:35] "[36mGET /resultados/control_sensor_vega.png HTTP/1.1[0m" 304 -
+2025-05-22 23:30:35,298 - INFO - 127.0.0.1 - - [22/May/2025 23:30:35] "[36mGET /resultados/control_sensor_keller.png HTTP/1.1[0m" 304 -
+2025-05-22 23:30:35,537 - INFO - 127.0.0.1 - - [22/May/2025 23:30:35] "[36mGET /resultados/boxplot_humedad.png HTTP/1.1[0m" 304 -
+2025-05-22 23:30:35,545 - INFO - 127.0.0.1 - - [22/May/2025 23:30:35] "[36mGET /resultados/boxplot_presión.png HTTP/1.1[0m" 304 -
+2025-05-22 23:30:35,554 - INFO - 127.0.0.1 - - [22/May/2025 23:30:35] "[36mGET /resultados/boxplot_temperatura_agua.png HTTP/1.1[0m" 304 -
+2025-05-22 23:30:35,584 - INFO - 127.0.0.1 - - [22/May/2025 23:30:35] "[36mGET /resultados/boxplot_temperatura_aire.png HTTP/1.1[0m" 304 -
+2025-05-22 23:30:35,585 - INFO - 127.0.0.1 - - [22/May/2025 23:30:35] "[36mGET /resultados/boxplot_vega.png HTTP/1.1[0m" 304 -
+2025-05-22 23:30:35,611 - INFO - 127.0.0.1 - - [22/May/2025 23:30:35] "[36mGET /resultados/boxplot_keller.png HTTP/1.1[0m" 304 -
+2025-05-22 23:30:35,852 - INFO - 127.0.0.1 - - [22/May/2025 23:30:35] "[36mGET /resultados/histogramas.png HTTP/1.1[0m" 304 -
+2025-05-22 23:30:35,857 - INFO - 127.0.0.1 - - [22/May/2025 23:30:35] "[36mGET /resultados/diferencia_sensores.png HTTP/1.1[0m" 304 -
+2025-05-22 23:30:35,862 - INFO - 127.0.0.1 - - [22/May/2025 23:30:35] "[36mGET /resultados/boxplots.png HTTP/1.1[0m" 304 -
+2025-05-22 23:30:35,897 - INFO - 127.0.0.1 - - [22/May/2025 23:30:35] "[36mGET /resultados/series_temporales.png HTTP/1.1[0m" 304 -
+2025-05-22 23:30:35,899 - INFO - 127.0.0.1 - - [22/May/2025 23:30:35] "[36mGET /resultados/analisis_sensores.png HTTP/1.1[0m" 304 -
+2025-05-22 23:32:53,755 - INFO - 127.0.0.1 - - [22/May/2025 23:32:53] "GET / HTTP/1.1" 200 -
+2025-05-22 23:32:53,798 - INFO - 127.0.0.1 - - [22/May/2025 23:32:53] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-05-22 23:32:53,799 - INFO - 127.0.0.1 - - [22/May/2025 23:32:53] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+2025-05-22 23:32:55,827 - INFO - 127.0.0.1 - - [22/May/2025 23:32:55] "GET / HTTP/1.1" 200 -
+2025-05-22 23:32:55,851 - INFO - 127.0.0.1 - - [22/May/2025 23:32:55] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-05-22 23:32:55,852 - INFO - 127.0.0.1 - - [22/May/2025 23:32:55] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+2025-05-22 23:32:56,800 - INFO - 127.0.0.1 - - [22/May/2025 23:32:56] "GET / HTTP/1.1" 200 -
+2025-05-22 23:32:56,822 - INFO - 127.0.0.1 - - [22/May/2025 23:32:56] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-05-22 23:32:56,823 - INFO - 127.0.0.1 - - [22/May/2025 23:32:56] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+2025-05-22 23:32:57,521 - INFO - 127.0.0.1 - - [22/May/2025 23:32:57] "GET / HTTP/1.1" 200 -
+2025-05-22 23:32:57,543 - INFO - 127.0.0.1 - - [22/May/2025 23:32:57] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-05-22 23:32:57,544 - INFO - 127.0.0.1 - - [22/May/2025 23:32:57] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+2025-05-22 23:32:58,165 - INFO - 127.0.0.1 - - [22/May/2025 23:32:58] "GET / HTTP/1.1" 200 -
+2025-05-22 23:32:58,188 - INFO - 127.0.0.1 - - [22/May/2025 23:32:58] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-05-22 23:32:58,189 - INFO - 127.0.0.1 - - [22/May/2025 23:32:58] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+2025-05-22 23:32:58,977 - INFO - 127.0.0.1 - - [22/May/2025 23:32:58] "GET / HTTP/1.1" 200 -
+2025-05-22 23:32:58,999 - INFO - 127.0.0.1 - - [22/May/2025 23:32:58] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-05-22 23:32:59,001 - INFO - 127.0.0.1 - - [22/May/2025 23:32:59] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+2025-05-22 23:33:25,295 - INFO - 127.0.0.1 - - [22/May/2025 23:33:25] "GET / HTTP/1.1" 200 -
+2025-05-22 23:33:25,322 - INFO - 127.0.0.1 - - [22/May/2025 23:33:25] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-05-22 23:33:25,323 - INFO - 127.0.0.1 - - [22/May/2025 23:33:25] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+2025-05-22 23:33:27,006 - INFO - 127.0.0.1 - - [22/May/2025 23:33:27] "GET / HTTP/1.1" 200 -
+2025-05-22 23:33:27,027 - INFO - 127.0.0.1 - - [22/May/2025 23:33:27] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-05-22 23:33:27,029 - INFO - 127.0.0.1 - - [22/May/2025 23:33:27] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+2025-05-22 23:33:27,896 - INFO - 127.0.0.1 - - [22/May/2025 23:33:27] "GET / HTTP/1.1" 200 -
+2025-05-22 23:33:27,919 - INFO - 127.0.0.1 - - [22/May/2025 23:33:27] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-05-22 23:33:27,921 - INFO - 127.0.0.1 - - [22/May/2025 23:33:27] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+2025-05-22 23:35:01,629 - INFO - 127.0.0.1 - - [22/May/2025 23:35:01] "GET / HTTP/1.1" 200 -
+2025-05-22 23:35:01,657 - INFO - 127.0.0.1 - - [22/May/2025 23:35:01] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-05-22 23:35:01,659 - INFO - 127.0.0.1 - - [22/May/2025 23:35:01] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+2025-05-22 23:37:59,039 - INFO - 127.0.0.1 - - [22/May/2025 23:37:59] "GET / HTTP/1.1" 200 -
+2025-05-22 23:37:59,073 - INFO - 127.0.0.1 - - [22/May/2025 23:37:59] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-05-22 23:37:59,074 - INFO - 127.0.0.1 - - [22/May/2025 23:37:59] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+2025-05-22 23:38:19,689 - INFO - 127.0.0.1 - - [22/May/2025 23:38:19] "GET /login HTTP/1.1" 200 -
+2025-05-22 23:40:18,228 - INFO - 127.0.0.1 - - [22/May/2025 23:40:18] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-05-22 23:40:18,258 - INFO - 127.0.0.1 - - [22/May/2025 23:40:18] "[33mGET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1[0m" 404 -
+2025-05-22 23:40:28,606 - INFO - 127.0.0.1 - - [22/May/2025 23:40:28] "GET / HTTP/1.1" 200 -
+2025-05-22 23:40:28,644 - INFO - 127.0.0.1 - - [22/May/2025 23:40:28] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-05-22 23:40:28,645 - INFO - 127.0.0.1 - - [22/May/2025 23:40:28] "[33mGET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1[0m" 404 -
+2025-05-22 23:40:28,649 - INFO - 127.0.0.1 - - [22/May/2025 23:40:28] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+2025-05-22 23:40:30,418 - INFO - 127.0.0.1 - - [22/May/2025 23:40:30] "GET / HTTP/1.1" 200 -
+2025-05-22 23:40:30,446 - INFO - 127.0.0.1 - - [22/May/2025 23:40:30] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-05-22 23:40:30,448 - INFO - 127.0.0.1 - - [22/May/2025 23:40:30] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+2025-05-22 23:40:30,457 - INFO - 127.0.0.1 - - [22/May/2025 23:40:30] "[33mGET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1[0m" 404 -
+2025-05-22 23:50:38,883 - INFO - 127.0.0.1 - - [22/May/2025 23:50:38] "GET / HTTP/1.1" 200 -
+2025-05-22 23:50:38,914 - INFO - 127.0.0.1 - - [22/May/2025 23:50:38] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-05-22 23:50:38,916 - INFO - 127.0.0.1 - - [22/May/2025 23:50:38] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+2025-05-22 23:50:40,854 - INFO - 127.0.0.1 - - [22/May/2025 23:50:40] "GET /admin/alertas HTTP/1.1" 200 -
+2025-05-22 23:50:44,476 - INFO - 127.0.0.1 - - [22/May/2025 23:50:44] "GET /admin/alertas HTTP/1.1" 200 -
+2025-05-22 23:50:52,185 - INFO - 127.0.0.1 - - [22/May/2025 23:50:52] "GET /api/mareas_hoy HTTP/1.1" 200 -
+2025-05-22 23:50:52,214 - INFO - 127.0.0.1 - - [22/May/2025 23:50:52] "GET /api/pronostico?fecha_inicio=2025-05-23T23:50&fecha_fin=2025-05-23T23:50 HTTP/1.1" 200 -
+2025-05-22 23:51:10,875 - INFO - 127.0.0.1 - - [22/May/2025 23:51:10] "GET /api/pronostico/hoy HTTP/1.1" 200 -
+2025-05-22 23:51:14,454 - INFO - 127.0.0.1 - - [22/May/2025 23:51:14] "GET /api/pronostico?fecha_inicio=2025-05-23T23:51&fecha_fin=2025-05-23T23:51 HTTP/1.1" 200 -
+2025-05-22 23:51:14,477 - INFO - 127.0.0.1 - - [22/May/2025 23:51:14] "GET /api/mareas_hoy HTTP/1.1" 200 -
+2025-05-22 23:51:16,446 - INFO - 127.0.0.1 - - [22/May/2025 23:51:16] "GET /api/pronostico/hoy HTTP/1.1" 200 -
+2025-05-22 23:51:19,921 - INFO - 127.0.0.1 - - [22/May/2025 23:51:19] "GET / HTTP/1.1" 200 -
+2025-05-22 23:51:19,950 - INFO - 127.0.0.1 - - [22/May/2025 23:51:19] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-05-22 23:51:19,953 - INFO - 127.0.0.1 - - [22/May/2025 23:51:19] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+2025-05-22 23:51:21,542 - INFO - 127.0.0.1 - - [22/May/2025 23:51:21] "GET /api/mareas_hoy HTTP/1.1" 200 -
+2025-05-22 23:51:21,562 - INFO - 127.0.0.1 - - [22/May/2025 23:51:21] "GET /api/pronostico?fecha_inicio=2025-05-23T23:51&fecha_fin=2025-05-23T23:51 HTTP/1.1" 200 -
+2025-05-22 23:51:39,986 - INFO - 127.0.0.1 - - [22/May/2025 23:51:39] "GET /api/pronostico/hoy HTTP/1.1" 200 -
+2025-05-22 23:52:17,283 - INFO - 127.0.0.1 - - [22/May/2025 23:52:17] "GET /api/pronostico?fecha_inicio=2025-05-16T23:51&fecha_fin=2025-05-27T23:51 HTTP/1.1" 200 -
+2025-05-22 23:52:17,297 - INFO - 127.0.0.1 - - [22/May/2025 23:52:17] "GET /api/mareas_hoy HTTP/1.1" 200 -
+2025-05-22 23:52:20,442 - INFO - Iniciando ejecución completa: 2025-05-22 23:52:20
+2025-05-22 23:52:20,443 - INFO - ==================================================
+2025-05-22 23:52:20,443 - INFO - INICIANDO ANÁLISIS BÁSICO DE SENSORES
+2025-05-22 23:52:20,443 - INFO - ==================================================
+2025-05-22 23:52:20,445 - INFO - [OK] Análisis básico de sensores completado exitosamente. Reporte generado: reportes/reporte_sensores_20250522_235220.txt
+2025-05-22 23:52:20,445 - INFO - ==================================================
+2025-05-22 23:52:20,445 - INFO - INICIANDO CONTROL DE CALIDAD
+2025-05-22 23:52:20,446 - INFO - ==================================================
+2025-05-22 23:52:23,307 - INFO - [OK] Control de calidad completado exitosamente. Reporte generado: reportes/reporte_control_calidad_20250522_235223.txt
+2025-05-22 23:52:23,307 - INFO - ==================================================
+2025-05-22 23:52:23,307 - INFO - INICIANDO ANÁLISIS DE PRONÓSTICOS
+2025-05-22 23:52:23,308 - INFO - ==================================================
+2025-05-22 23:52:23,308 - INFO - Procesando datos para pronósticos...
+2025-05-22 23:52:23,415 - INFO - Datos procesados guardados en datos_procesados/datos_procesados.csv
+2025-05-22 23:52:23,415 - INFO - Registros procesados: 399
+2025-05-22 23:52:25,204 - INFO - 127.0.0.1 - - [22/May/2025 23:52:25] "GET /api/mareas_hoy HTTP/1.1" 200 -
+2025-05-22 23:52:30,519 - INFO - Iniciando ejecución completa: 2025-05-22 23:52:30
+2025-05-22 23:52:30,520 - INFO - ==================================================
+2025-05-22 23:52:30,521 - INFO - INICIANDO ANÁLISIS BÁSICO DE SENSORES
+2025-05-22 23:52:30,521 - INFO - ==================================================
+2025-05-22 23:52:30,524 - INFO - [OK] Análisis básico de sensores completado exitosamente. Reporte generado: reportes/reporte_sensores_20250522_235230.txt
+2025-05-22 23:52:30,525 - INFO - ==================================================
+2025-05-22 23:52:30,538 - INFO - INICIANDO CONTROL DE CALIDAD
+2025-05-22 23:52:30,539 - INFO - ==================================================
+2025-05-22 23:52:37,170 - INFO - [OK] Control de calidad completado exitosamente. Reporte generado: reportes/reporte_control_calidad_20250522_235237.txt
+2025-05-22 23:52:37,170 - INFO - ==================================================
+2025-05-22 23:52:37,170 - INFO - INICIANDO ANÁLISIS DE PRONÓSTICOS
+2025-05-22 23:52:37,171 - INFO - ==================================================
+2025-05-22 23:52:37,171 - INFO - Procesando datos para pronósticos...
+2025-05-22 23:52:37,272 - INFO - Datos procesados guardados en datos_procesados/datos_procesados.csv
+2025-05-22 23:52:37,274 - INFO - Registros procesados: 399
+2025-05-22 23:52:38,804 - INFO - 127.0.0.1 - - [22/May/2025 23:52:38] "GET /api/mareas_hoy HTTP/1.1" 200 -
+2025-05-22 23:52:41,926 - INFO - 127.0.0.1 - - [22/May/2025 23:52:41] "GET /api/mareas_hoy HTTP/1.1" 200 -
+2025-05-22 23:52:51,520 - INFO - [OK] Análisis de pronósticos completado exitosamente. Reporte generado: reportes/reporte_pronosticos_20250522_235251.txt
+2025-05-22 23:52:51,537 - INFO - ==================================================
+2025-05-22 23:52:51,538 - INFO - RESUMEN DE EJECUCIÓN
+2025-05-22 23:52:51,539 - INFO - ==================================================
+2025-05-22 23:52:51,540 - INFO - Tiempo total de ejecución: 31.10 segundos
+2025-05-22 23:52:51,545 - INFO - Reporte final generado: reportes/reporte_resumen_final_20250522_235251.txt
+2025-05-22 23:52:51,545 - INFO - 
+[OK] Todos los análisis se completaron exitosamente
+2025-05-22 23:52:51,695 - INFO - 127.0.0.1 - - [22/May/2025 23:52:51] "GET /api/pronostico?fecha_inicio=2025-05-16T23:51&fecha_fin=2025-05-27T23:51 HTTP/1.1" 200 -
+2025-05-22 23:52:51,799 - INFO - 127.0.0.1 - - [22/May/2025 23:52:51] "GET /api/pronostico?fecha_inicio=2025-05-16T23:51&fecha_fin=2025-05-27T23:51 HTTP/1.1" 200 -
+2025-05-22 23:52:53,201 - INFO - Iniciando ejecución completa: 2025-05-22 23:52:53
+2025-05-22 23:52:53,202 - INFO - ==================================================
+2025-05-22 23:52:53,202 - INFO - INICIANDO ANÁLISIS BÁSICO DE SENSORES
+2025-05-22 23:52:53,203 - INFO - ==================================================
+2025-05-22 23:52:53,207 - INFO - [OK] Análisis básico de sensores completado exitosamente. Reporte generado: reportes/reporte_sensores_20250522_235253.txt
+2025-05-22 23:52:53,207 - INFO - ==================================================
+2025-05-22 23:52:53,208 - INFO - INICIANDO CONTROL DE CALIDAD
+2025-05-22 23:52:53,209 - INFO - ==================================================
+2025-05-22 23:52:56,427 - INFO - Iniciando ejecución completa: 2025-05-22 23:52:56
+2025-05-22 23:52:56,427 - INFO - ==================================================
+2025-05-22 23:52:56,428 - INFO - INICIANDO ANÁLISIS BÁSICO DE SENSORES
+2025-05-22 23:52:56,428 - INFO - ==================================================
+2025-05-22 23:52:56,450 - INFO - [OK] Análisis básico de sensores completado exitosamente. Reporte generado: reportes/reporte_sensores_20250522_235256.txt
+2025-05-22 23:52:56,450 - INFO - ==================================================
+2025-05-22 23:52:56,452 - INFO - INICIANDO CONTROL DE CALIDAD
+2025-05-22 23:52:56,452 - INFO - ==================================================
+2025-05-22 23:52:58,855 - INFO - 127.0.0.1 - - [22/May/2025 23:52:58] "GET /api/pronostico?fecha_inicio=2025-05-16T23:51&fecha_fin=2025-05-27T23:51 HTTP/1.1" 200 -
+2025-05-22 23:52:58,925 - INFO - Iniciando ejecución completa: 2025-05-22 23:52:58
+2025-05-22 23:52:58,926 - INFO - ==================================================
+2025-05-22 23:52:58,927 - INFO - INICIANDO ANÁLISIS BÁSICO DE SENSORES
+2025-05-22 23:52:58,928 - INFO - ==================================================
+2025-05-22 23:52:58,934 - INFO - [OK] Análisis básico de sensores completado exitosamente. Reporte generado: reportes/reporte_sensores_20250522_235258.txt
+2025-05-22 23:52:58,938 - INFO - ==================================================
+2025-05-22 23:52:58,938 - INFO - INICIANDO CONTROL DE CALIDAD
+2025-05-22 23:52:58,941 - INFO - ==================================================
+2025-05-22 23:53:00,246 - INFO - Iniciando ejecución completa: 2025-05-22 23:53:00
+2025-05-22 23:53:00,247 - INFO - ==================================================
+2025-05-22 23:53:00,247 - INFO - INICIANDO ANÁLISIS BÁSICO DE SENSORES
+2025-05-22 23:53:00,248 - INFO - ==================================================
+2025-05-22 23:53:00,251 - INFO - [OK] Análisis básico de sensores completado exitosamente. Reporte generado: reportes/reporte_sensores_20250522_235300.txt
+2025-05-22 23:53:00,252 - INFO - ==================================================
+2025-05-22 23:53:00,252 - INFO - INICIANDO CONTROL DE CALIDAD
+2025-05-22 23:53:00,253 - INFO - ==================================================
+2025-05-22 23:53:03,567 - INFO - [OK] Control de calidad completado exitosamente. Reporte generado: reportes/reporte_control_calidad_20250522_235303.txt
+2025-05-22 23:53:03,568 - INFO - ==================================================
+2025-05-22 23:53:03,568 - INFO - INICIANDO ANÁLISIS DE PRONÓSTICOS
+2025-05-22 23:53:03,568 - INFO - ==================================================
+2025-05-22 23:53:03,569 - INFO - Procesando datos para pronósticos...
+2025-05-22 23:53:03,743 - INFO - Datos procesados guardados en datos_procesados/datos_procesados.csv
+2025-05-22 23:53:03,743 - INFO - Registros procesados: 399
+2025-05-22 23:53:08,987 - INFO - [OK] Control de calidad completado exitosamente. Reporte generado: reportes/reporte_control_calidad_20250522_235308.txt
+2025-05-22 23:53:08,988 - INFO - ==================================================
+2025-05-22 23:53:08,988 - INFO - INICIANDO ANÁLISIS DE PRONÓSTICOS
+2025-05-22 23:53:08,989 - INFO - ==================================================
+2025-05-22 23:53:08,990 - INFO - Procesando datos para pronósticos...
+2025-05-22 23:53:09,124 - INFO - Datos procesados guardados en datos_procesados/datos_procesados.csv
+2025-05-22 23:53:09,124 - INFO - Registros procesados: 399
+2025-05-22 23:53:10,217 - INFO - [OK] Control de calidad completado exitosamente. Reporte generado: reportes/reporte_control_calidad_20250522_235310.txt
+2025-05-22 23:53:10,217 - INFO - ==================================================
+2025-05-22 23:53:10,217 - INFO - INICIANDO ANÁLISIS DE PRONÓSTICOS
+2025-05-22 23:53:10,218 - INFO - ==================================================
+2025-05-22 23:53:10,218 - INFO - Procesando datos para pronósticos...
+2025-05-22 23:53:10,331 - INFO - Datos procesados guardados en datos_procesados/datos_procesados.csv
+2025-05-22 23:53:10,331 - INFO - Registros procesados: 399
+2025-05-22 23:53:11,022 - INFO - [OK] Control de calidad completado exitosamente. Reporte generado: reportes/reporte_control_calidad_20250522_235311.txt
+2025-05-22 23:53:11,022 - INFO - ==================================================
+2025-05-22 23:53:11,023 - INFO - INICIANDO ANÁLISIS DE PRONÓSTICOS
+2025-05-22 23:53:11,023 - INFO - ==================================================
+2025-05-22 23:53:11,023 - INFO - Procesando datos para pronósticos...
+2025-05-22 23:53:11,165 - INFO - Datos procesados guardados en datos_procesados/datos_procesados.csv
+2025-05-22 23:53:11,165 - INFO - Registros procesados: 399
+2025-05-22 23:53:18,449 - INFO - 127.0.0.1 - - [22/May/2025 23:53:18] "GET /api/pronostico?fecha_inicio=2025-05-23T23:53&fecha_fin=2025-05-23T23:53 HTTP/1.1" 200 -
+2025-05-22 23:53:18,503 - INFO - 127.0.0.1 - - [22/May/2025 23:53:18] "GET /api/mareas_hoy HTTP/1.1" 200 -
+2025-05-22 23:53:21,771 - INFO - [OK] Análisis de pronósticos completado exitosamente. Reporte generado: reportes/reporte_pronosticos_20250522_235321.txt
+2025-05-22 23:53:21,771 - INFO - ==================================================
+2025-05-22 23:53:21,772 - INFO - RESUMEN DE EJECUCIÓN
+2025-05-22 23:53:21,772 - INFO - ==================================================
+2025-05-22 23:53:21,773 - INFO - Tiempo total de ejecución: 51.25 segundos
+2025-05-22 23:53:21,776 - INFO - Reporte final generado: reportes/reporte_resumen_final_20250522_235321.txt
+2025-05-22 23:53:21,776 - INFO - 
+[OK] Todos los análisis se completaron exitosamente
+2025-05-22 23:53:21,811 - INFO - 127.0.0.1 - - [22/May/2025 23:53:21] "GET /api/pronostico?fecha_inicio=2025-05-16T23:51&fecha_fin=2025-05-27T23:51 HTTP/1.1" 200 -
+2025-05-22 23:53:50,662 - INFO - 127.0.0.1 - - [22/May/2025 23:53:50] "GET /api/pronostico/hoy HTTP/1.1" 200 -
+2025-05-22 23:53:56,994 - INFO - 127.0.0.1 - - [22/May/2025 23:53:56] "GET /api/mareas_hoy HTTP/1.1" 200 -
+2025-05-22 23:53:56,999 - INFO - 127.0.0.1 - - [22/May/2025 23:53:56] "GET /api/pronostico?fecha_inicio=2025-05-23T23:53&fecha_fin=2025-05-23T23:53 HTTP/1.1" 200 -
+2025-05-22 23:53:57,490 - INFO - [OK] Análisis de pronósticos completado exitosamente. Reporte generado: reportes/reporte_pronosticos_20250522_235357.txt
+2025-05-22 23:53:57,491 - INFO - ==================================================
+2025-05-22 23:53:57,492 - INFO - RESUMEN DE EJECUCIÓN
+2025-05-22 23:53:57,493 - INFO - ==================================================
+2025-05-22 23:53:57,494 - INFO - Tiempo total de ejecución: 58.57 segundos
+2025-05-22 23:53:57,502 - INFO - Reporte final generado: reportes/reporte_resumen_final_20250522_235357.txt
+2025-05-22 23:53:57,502 - INFO - 
+[OK] Todos los análisis se completaron exitosamente
+2025-05-22 23:53:57,551 - INFO - 127.0.0.1 - - [22/May/2025 23:53:57] "GET /api/pronostico/hoy HTTP/1.1" 200 -
+2025-05-22 23:53:57,833 - INFO - [OK] Análisis de pronósticos completado exitosamente. Reporte generado: reportes/reporte_pronosticos_20250522_235357.txt
+2025-05-22 23:53:57,833 - INFO - ==================================================
+2025-05-22 23:53:57,833 - INFO - RESUMEN DE EJECUCIÓN
+2025-05-22 23:53:57,833 - INFO - ==================================================
+2025-05-22 23:53:57,834 - INFO - Tiempo total de ejecución: 61.41 segundos
+2025-05-22 23:53:57,835 - INFO - Reporte final generado: reportes/reporte_resumen_final_20250522_235357.txt
+2025-05-22 23:53:57,835 - INFO - 
+[OK] Todos los análisis se completaron exitosamente
+2025-05-22 23:53:57,874 - INFO - 127.0.0.1 - - [22/May/2025 23:53:57] "GET /api/pronostico?fecha_inicio=2025-05-16T23:51&fecha_fin=2025-05-27T23:51 HTTP/1.1" 200 -
+2025-05-22 23:53:58,518 - INFO - 127.0.0.1 - - [22/May/2025 23:53:58] "GET /api/pronostico/hoy HTTP/1.1" 200 -
+2025-05-22 23:53:58,927 - INFO - [OK] Análisis de pronósticos completado exitosamente. Reporte generado: reportes/reporte_pronosticos_20250522_235358.txt
+2025-05-22 23:53:58,928 - INFO - ==================================================
+2025-05-22 23:53:58,928 - INFO - RESUMEN DE EJECUCIÓN
+2025-05-22 23:53:58,928 - INFO - ==================================================
+2025-05-22 23:53:58,929 - INFO - Tiempo total de ejecución: 58.68 segundos
+2025-05-22 23:53:58,932 - INFO - Reporte final generado: reportes/reporte_resumen_final_20250522_235358.txt
+2025-05-22 23:53:58,933 - INFO - 
+[OK] Todos los análisis se completaron exitosamente
+2025-05-22 23:53:59,295 - INFO - 127.0.0.1 - - [22/May/2025 23:53:59] "GET / HTTP/1.1" 200 -
+2025-05-22 23:53:59,371 - INFO - 127.0.0.1 - - [22/May/2025 23:53:59] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-05-22 23:53:59,373 - INFO - 127.0.0.1 - - [22/May/2025 23:53:59] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+2025-05-22 23:53:59,514 - INFO - [OK] Análisis de pronósticos completado exitosamente. Reporte generado: reportes/reporte_pronosticos_20250522_235359.txt
+2025-05-22 23:53:59,515 - INFO - ==================================================
+2025-05-22 23:53:59,515 - INFO - RESUMEN DE EJECUCIÓN
+2025-05-22 23:53:59,515 - INFO - ==================================================
+2025-05-22 23:53:59,516 - INFO - Tiempo total de ejecución: 66.31 segundos
+2025-05-22 23:53:59,517 - INFO - Reporte final generado: reportes/reporte_resumen_final_20250522_235359.txt
+2025-05-22 23:53:59,518 - INFO - 
+[OK] Todos los análisis se completaron exitosamente
+2025-05-22 23:53:59,547 - INFO - 127.0.0.1 - - [22/May/2025 23:53:59] "GET /api/pronostico?fecha_inicio=2025-05-23T23:52&fecha_fin=2025-05-23T23:52 HTTP/1.1" 200 -
+2025-05-22 23:54:04,066 - INFO - 127.0.0.1 - - [22/May/2025 23:54:04] "GET /api/mareas_hoy HTTP/1.1" 200 -
+2025-05-22 23:54:04,067 - INFO - 127.0.0.1 - - [22/May/2025 23:54:04] "GET /api/pronostico?fecha_inicio=2025-05-23T23:54&fecha_fin=2025-05-23T23:54 HTTP/1.1" 200 -
+2025-05-22 23:54:05,999 - INFO - 127.0.0.1 - - [22/May/2025 23:54:05] "GET /api/pronostico/hoy HTTP/1.1" 200 -
+2025-05-22 23:54:13,208 - INFO - 127.0.0.1 - - [22/May/2025 23:54:13] "GET /admin/alertas HTTP/1.1" 200 -
+2025-05-22 23:56:47,832 - INFO - 127.0.0.1 - - [22/May/2025 23:56:47] "GET / HTTP/1.1" 200 -
+2025-05-22 23:56:47,860 - INFO - 127.0.0.1 - - [22/May/2025 23:56:47] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-05-22 23:56:47,861 - INFO - 127.0.0.1 - - [22/May/2025 23:56:47] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+2025-05-22 23:56:50,305 - INFO - 127.0.0.1 - - [22/May/2025 23:56:50] "GET /api/pronostico?fecha_inicio=2025-05-23T00:00&fecha_fin=2025-05-23T23:59 HTTP/1.1" 200 -
+2025-05-22 23:56:50,327 - INFO - 127.0.0.1 - - [22/May/2025 23:56:50] "GET /api/mareas_hoy HTTP/1.1" 200 -
+2025-05-22 23:56:50,349 - INFO - 127.0.0.1 - - [22/May/2025 23:56:50] "GET /api/pronostico?fecha_inicio=2025-05-23T00:00&fecha_fin=2025-05-23T23:59 HTTP/1.1" 200 -
+2025-05-22 23:56:50,359 - INFO - 127.0.0.1 - - [22/May/2025 23:56:50] "GET /api/pronostico/hoy HTTP/1.1" 200 -
+2025-05-22 23:56:59,598 - INFO - 127.0.0.1 - - [22/May/2025 23:56:59] "GET /admin/alertas HTTP/1.1" 200 -
+2025-05-22 23:57:21,070 - INFO - 127.0.0.1 - - [22/May/2025 23:57:21] "GET /admin/alertas HTTP/1.1" 200 -
+2025-05-22 23:57:41,083 - INFO - 127.0.0.1 - - [22/May/2025 23:57:41] "GET /api/pronostico?fecha_inicio=2025-05-17T00:00&fecha_fin=2025-05-26T23:59 HTTP/1.1" 200 -
+2025-05-22 23:57:41,084 - INFO - 127.0.0.1 - - [22/May/2025 23:57:41] "GET /api/mareas_hoy HTTP/1.1" 200 -
+2025-05-22 23:57:41,095 - INFO - 127.0.0.1 - - [22/May/2025 23:57:41] "GET /api/pronostico?fecha_inicio=2025-05-17T00:00&fecha_fin=2025-05-26T23:59 HTTP/1.1" 200 -
+2025-05-22 23:58:38,735 - INFO - 127.0.0.1 - - [22/May/2025 23:58:38] "GET /admin/alertas HTTP/1.1" 200 -
+2025-05-23 00:03:05,118 - INFO -  * Detected change in 'C:\\Users\\herre\\OneDrive\\Documents\\p_final\\proyecto\\app.py', reloading
+2025-05-23 00:03:06,658 - INFO -  * Restarting with stat
+2025-05-23 00:03:09,326 - WARNING -  * Debugger is active!
+2025-05-23 00:03:09,330 - INFO -  * Debugger PIN: 121-056-040
+2025-05-23 00:03:45,246 - INFO - Iniciando ejecución completa: 2025-05-23 00:03:45
+2025-05-23 00:03:45,246 - INFO - ==================================================
+2025-05-23 00:03:45,246 - INFO - INICIANDO ANÁLISIS BÁSICO DE SENSORES
+2025-05-23 00:03:45,247 - INFO - ==================================================
+2025-05-23 00:03:45,248 - INFO - [OK] Análisis básico de sensores completado exitosamente. Reporte generado: reportes/reporte_sensores_20250523_000345.txt
+2025-05-23 00:03:45,248 - INFO - ==================================================
+2025-05-23 00:03:45,248 - INFO - INICIANDO CONTROL DE CALIDAD
+2025-05-23 00:03:45,249 - INFO - ==================================================
+2025-05-23 00:03:47,932 - INFO - [OK] Control de calidad completado exitosamente. Reporte generado: reportes/reporte_control_calidad_20250523_000347.txt
+2025-05-23 00:03:47,932 - INFO - ==================================================
+2025-05-23 00:03:47,933 - INFO - INICIANDO ANÁLISIS DE PRONÓSTICOS
+2025-05-23 00:03:47,933 - INFO - ==================================================
+2025-05-23 00:03:47,933 - INFO - Procesando datos para pronósticos...
+2025-05-23 00:03:48,012 - INFO - Datos procesados guardados en datos_procesados/datos_procesados.csv
+2025-05-23 00:03:48,013 - INFO - Registros procesados: 399
+2025-05-23 00:04:07,469 - INFO - [OK] Análisis de pronósticos completado exitosamente. Reporte generado: reportes/reporte_pronosticos_20250523_000407.txt
+2025-05-23 00:04:07,469 - INFO - ==================================================
+2025-05-23 00:04:07,470 - INFO - RESUMEN DE EJECUCIÓN
+2025-05-23 00:04:07,470 - INFO - ==================================================
+2025-05-23 00:04:07,471 - INFO - Tiempo total de ejecución: 22.22 segundos
+2025-05-23 00:04:07,472 - INFO - Reporte final generado: reportes/reporte_resumen_final_20250523_000407.txt
+2025-05-23 00:04:07,473 - INFO - 
+[OK] Todos los análisis se completaron exitosamente
+2025-05-23 00:04:07,580 - INFO - 127.0.0.1 - - [23/May/2025 00:04:07] "GET / HTTP/1.1" 200 -
+2025-05-23 00:04:07,744 - INFO - 127.0.0.1 - - [23/May/2025 00:04:07] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+2025-05-23 00:04:07,745 - INFO - 127.0.0.1 - - [23/May/2025 00:04:07] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-05-23 00:04:11,668 - INFO - 127.0.0.1 - - [23/May/2025 00:04:11] "GET /api/mareas_hoy HTTP/1.1" 200 -
+2025-05-23 00:04:11,707 - INFO - 127.0.0.1 - - [23/May/2025 00:04:11] "GET /api/pronostico/hoy HTTP/1.1" 200 -
+2025-05-23 00:04:11,708 - INFO - 127.0.0.1 - - [23/May/2025 00:04:11] "GET /api/pronostico?fecha_inicio=2025-05-23T00:00&fecha_fin=2025-05-23T23:59 HTTP/1.1" 200 -
+2025-05-23 00:04:11,746 - INFO - 127.0.0.1 - - [23/May/2025 00:04:11] "GET /api/pronostico?fecha_inicio=2025-05-23T00:00&fecha_fin=2025-05-23T23:59 HTTP/1.1" 200 -
+2025-05-23 00:04:50,234 - INFO - 127.0.0.1 - - [23/May/2025 00:04:50] "GET /admin/alertas?fecha_inicio=2025-05-23T00:00&fecha_fin=2025-05-23T23:59 HTTP/1.1" 200 -
+2025-05-23 00:06:03,493 - INFO - 127.0.0.1 - - [23/May/2025 00:06:03] "GET /api/mareas_hoy HTTP/1.1" 200 -
+2025-05-23 00:06:03,495 - INFO - 127.0.0.1 - - [23/May/2025 00:06:03] "GET /api/pronostico?fecha_inicio=2025-05-22T00:00&fecha_fin=2025-05-25T23:59 HTTP/1.1" 200 -
+2025-05-23 00:06:03,531 - INFO - 127.0.0.1 - - [23/May/2025 00:06:03] "GET /api/pronostico?fecha_inicio=2025-05-22T00:00&fecha_fin=2025-05-25T23:59 HTTP/1.1" 200 -
+2025-05-23 00:06:32,595 - INFO - 127.0.0.1 - - [23/May/2025 00:06:32] "GET /admin/alertas?fecha_inicio=2025-05-22T00:00&fecha_fin=2025-05-25T23:59 HTTP/1.1" 200 -
+2025-05-23 00:08:01,914 - INFO - 127.0.0.1 - - [23/May/2025 00:08:01] "GET /api/mareas_hoy HTTP/1.1" 200 -
+2025-05-23 00:08:01,932 - INFO - 127.0.0.1 - - [23/May/2025 00:08:01] "GET /api/pronostico/hoy HTTP/1.1" 200 -
+2025-05-23 00:08:01,939 - INFO - 127.0.0.1 - - [23/May/2025 00:08:01] "GET /api/pronostico?fecha_inicio=2025-05-23T00:00&fecha_fin=2025-05-23T23:59 HTTP/1.1" 200 -
+2025-05-23 00:08:01,963 - INFO - 127.0.0.1 - - [23/May/2025 00:08:01] "GET /api/pronostico?fecha_inicio=2025-05-23T00:00&fecha_fin=2025-05-23T23:59 HTTP/1.1" 200 -
+2025-05-23 00:08:16,739 - INFO - 127.0.0.1 - - [23/May/2025 00:08:16] "GET / HTTP/1.1" 200 -
+2025-05-23 00:08:16,766 - INFO - 127.0.0.1 - - [23/May/2025 00:08:16] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-05-23 00:08:16,767 - INFO - 127.0.0.1 - - [23/May/2025 00:08:16] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+2025-05-23 00:08:18,801 - INFO - 127.0.0.1 - - [23/May/2025 00:08:18] "GET /api/mareas_hoy HTTP/1.1" 200 -
+2025-05-23 00:08:18,834 - INFO - 127.0.0.1 - - [23/May/2025 00:08:18] "GET /api/pronostico/hoy HTTP/1.1" 200 -
+2025-05-23 00:08:18,837 - INFO - 127.0.0.1 - - [23/May/2025 00:08:18] "GET /api/pronostico?fecha_inicio=2025-05-23T00:00&fecha_fin=2025-05-23T23:59 HTTP/1.1" 200 -
+2025-05-23 00:08:18,869 - INFO - 127.0.0.1 - - [23/May/2025 00:08:18] "GET /api/pronostico?fecha_inicio=2025-05-23T00:00&fecha_fin=2025-05-23T23:59 HTTP/1.1" 200 -
+2025-05-23 00:08:27,164 - INFO - 127.0.0.1 - - [23/May/2025 00:08:27] "GET / HTTP/1.1" 200 -
+2025-05-23 00:08:27,190 - INFO - 127.0.0.1 - - [23/May/2025 00:08:27] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-05-23 00:08:27,192 - INFO - 127.0.0.1 - - [23/May/2025 00:08:27] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+2025-05-23 00:08:29,000 - INFO - 127.0.0.1 - - [23/May/2025 00:08:29] "GET /api/mareas_hoy HTTP/1.1" 200 -
+2025-05-23 00:08:29,016 - INFO - 127.0.0.1 - - [23/May/2025 00:08:29] "GET /api/pronostico?fecha_inicio=2025-05-23T00:00&fecha_fin=2025-05-23T23:59 HTTP/1.1" 200 -
+2025-05-23 00:08:29,030 - INFO - 127.0.0.1 - - [23/May/2025 00:08:29] "GET /api/pronostico/hoy HTTP/1.1" 200 -
+2025-05-23 00:08:29,060 - INFO - 127.0.0.1 - - [23/May/2025 00:08:29] "GET /api/pronostico?fecha_inicio=2025-05-23T00:00&fecha_fin=2025-05-23T23:59 HTTP/1.1" 200 -
+2025-05-23 00:08:31,541 - INFO - 127.0.0.1 - - [23/May/2025 00:08:31] "GET /api/mareas_hoy HTTP/1.1" 200 -
+2025-05-23 00:08:31,558 - INFO - 127.0.0.1 - - [23/May/2025 00:08:31] "GET /api/pronostico?fecha_inicio=2025-05-23T00:00&fecha_fin=2025-05-23T23:59 HTTP/1.1" 200 -
+2025-05-23 00:08:31,573 - INFO - 127.0.0.1 - - [23/May/2025 00:08:31] "GET /api/pronostico/hoy HTTP/1.1" 200 -
+2025-05-23 00:08:31,599 - INFO - 127.0.0.1 - - [23/May/2025 00:08:31] "GET /api/pronostico?fecha_inicio=2025-05-23T00:00&fecha_fin=2025-05-23T23:59 HTTP/1.1" 200 -
+2025-05-23 00:08:37,609 - INFO - 127.0.0.1 - - [23/May/2025 00:08:37] "GET /admin/alertas?fecha_inicio=2025-05-23T00:00&fecha_fin=2025-05-23T23:59 HTTP/1.1" 200 -
+2025-05-23 00:09:02,554 - INFO - 127.0.0.1 - - [23/May/2025 00:09:02] "GET /api/mareas_hoy HTTP/1.1" 200 -
+2025-05-23 00:09:02,572 - INFO - 127.0.0.1 - - [23/May/2025 00:09:02] "GET /api/pronostico?fecha_inicio=2025-05-20T00:00&fecha_fin=2025-05-29T23:59 HTTP/1.1" 200 -
+2025-05-23 00:09:02,597 - INFO - 127.0.0.1 - - [23/May/2025 00:09:02] "GET /api/pronostico?fecha_inicio=2025-05-20T00:00&fecha_fin=2025-05-29T23:59 HTTP/1.1" 200 -
+2025-05-23 00:09:05,426 - INFO - 127.0.0.1 - - [23/May/2025 00:09:05] "GET /admin/alertas?fecha_inicio=2025-05-20T00:00&fecha_fin=2025-05-29T23:59 HTTP/1.1" 200 -
+2025-05-23 00:09:17,957 - INFO - 127.0.0.1 - - [23/May/2025 00:09:17] "GET / HTTP/1.1" 200 -
+2025-05-23 00:09:17,982 - INFO - 127.0.0.1 - - [23/May/2025 00:09:17] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-05-23 00:09:17,983 - INFO - 127.0.0.1 - - [23/May/2025 00:09:17] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+2025-05-23 00:12:20,446 - INFO - 127.0.0.1 - - [23/May/2025 00:12:20] "GET / HTTP/1.1" 200 -
+2025-05-23 00:12:20,474 - INFO - 127.0.0.1 - - [23/May/2025 00:12:20] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-05-23 00:12:20,476 - INFO - 127.0.0.1 - - [23/May/2025 00:12:20] "GET /static/js/main.js HTTP/1.1" 200 -
+2025-05-23 00:12:22,821 - INFO - 127.0.0.1 - - [23/May/2025 00:12:22] "GET /api/mareas_hoy HTTP/1.1" 200 -
+2025-05-23 00:12:22,837 - INFO - 127.0.0.1 - - [23/May/2025 00:12:22] "GET /api/pronostico?fecha_inicio=2025-05-23T00:00&fecha_fin=2025-05-23T23:59 HTTP/1.1" 200 -
+2025-05-23 00:12:28,240 - INFO - Iniciando ejecución completa: 2025-05-23 00:12:28
+2025-05-23 00:12:28,241 - INFO - ==================================================
+2025-05-23 00:12:28,241 - INFO - INICIANDO ANÁLISIS BÁSICO DE SENSORES
+2025-05-23 00:12:28,242 - INFO - ==================================================
+2025-05-23 00:12:28,243 - INFO - [OK] Análisis básico de sensores completado exitosamente. Reporte generado: reportes/reporte_sensores_20250523_001228.txt
+2025-05-23 00:12:28,244 - INFO - ==================================================
+2025-05-23 00:12:28,245 - INFO - INICIANDO CONTROL DE CALIDAD
+2025-05-23 00:12:28,246 - INFO - ==================================================
+2025-05-23 00:12:28,997 - INFO - Iniciando ejecución completa: 2025-05-23 00:12:28
+2025-05-23 00:12:28,999 - INFO - ==================================================
+2025-05-23 00:12:29,000 - INFO - INICIANDO ANÁLISIS BÁSICO DE SENSORES
+2025-05-23 00:12:29,001 - INFO - ==================================================
+2025-05-23 00:12:29,006 - INFO - [OK] Análisis básico de sensores completado exitosamente. Reporte generado: reportes/reporte_sensores_20250523_001229.txt
+2025-05-23 00:12:29,007 - INFO - ==================================================
+2025-05-23 00:12:29,007 - INFO - INICIANDO CONTROL DE CALIDAD
+2025-05-23 00:12:29,008 - INFO - ==================================================
+2025-05-23 00:12:34,202 - INFO - [OK] Control de calidad completado exitosamente. Reporte generado: reportes/reporte_control_calidad_20250523_001234.txt
+2025-05-23 00:12:34,203 - INFO - ==================================================
+2025-05-23 00:12:34,203 - INFO - INICIANDO ANÁLISIS DE PRONÓSTICOS
+2025-05-23 00:12:34,216 - INFO - ==================================================
+2025-05-23 00:12:34,217 - INFO - Procesando datos para pronósticos...
+2025-05-23 00:12:34,338 - INFO - Datos procesados guardados en datos_procesados/datos_procesados.csv
+2025-05-23 00:12:34,339 - INFO - Registros procesados: 399
+2025-05-23 00:12:34,515 - INFO - [OK] Control de calidad completado exitosamente. Reporte generado: reportes/reporte_control_calidad_20250523_001234.txt
+2025-05-23 00:12:34,516 - INFO - ==================================================
+2025-05-23 00:12:34,516 - INFO - INICIANDO ANÁLISIS DE PRONÓSTICOS
+2025-05-23 00:12:34,516 - INFO - ==================================================
+2025-05-23 00:12:34,517 - INFO - Procesando datos para pronósticos...
+2025-05-23 00:12:34,603 - INFO - Datos procesados guardados en datos_procesados/datos_procesados.csv
+2025-05-23 00:12:34,603 - INFO - Registros procesados: 399
+2025-05-23 00:12:48,337 - INFO - 127.0.0.1 - - [23/May/2025 00:12:48] "GET /api/mareas_hoy HTTP/1.1" 200 -
+2025-05-23 00:12:59,574 - INFO - 127.0.0.1 - - [23/May/2025 00:12:59] "GET /api/mareas_hoy HTTP/1.1" 200 -
+2025-05-23 00:13:06,167 - INFO - [OK] Análisis de pronósticos completado exitosamente. Reporte generado: reportes/reporte_pronosticos_20250523_001306.txt
+2025-05-23 00:13:06,167 - INFO - ==================================================
+2025-05-23 00:13:06,168 - INFO - RESUMEN DE EJECUCIÓN
+2025-05-23 00:13:06,170 - INFO - ==================================================
+2025-05-23 00:13:06,171 - INFO - Tiempo total de ejecución: 37.17 segundos
+2025-05-23 00:13:06,175 - INFO - Reporte final generado: reportes/reporte_resumen_final_20250523_001306.txt
+2025-05-23 00:13:06,177 - INFO - 
+[OK] Todos los análisis se completaron exitosamente
+2025-05-23 00:13:06,217 - INFO - 127.0.0.1 - - [23/May/2025 00:13:06] "GET /api/pronostico/hoy HTTP/1.1" 200 -
+2025-05-23 00:13:06,268 - INFO - 127.0.0.1 - - [23/May/2025 00:13:06] "GET /api/pronostico/hoy HTTP/1.1" 200 -
+2025-05-23 00:13:06,323 - INFO - 127.0.0.1 - - [23/May/2025 00:13:06] "GET /api/pronostico/hoy HTTP/1.1" 200 -
+2025-05-23 00:13:06,498 - INFO - [OK] Análisis de pronósticos completado exitosamente. Reporte generado: reportes/reporte_pronosticos_20250523_001306.txt
+2025-05-23 00:13:06,499 - INFO - ==================================================
+2025-05-23 00:13:06,499 - INFO - RESUMEN DE EJECUCIÓN
+2025-05-23 00:13:06,499 - INFO - ==================================================
+2025-05-23 00:13:06,499 - INFO - Tiempo total de ejecución: 38.26 segundos
+2025-05-23 00:13:06,501 - INFO - Reporte final generado: reportes/reporte_resumen_final_20250523_001306.txt
+2025-05-23 00:13:06,501 - INFO - 
+[OK] Todos los análisis se completaron exitosamente
+2025-05-23 00:13:06,540 - INFO - 127.0.0.1 - - [23/May/2025 00:13:06] "GET /api/pronostico?fecha_inicio=2025-05-23T00:00&fecha_fin=2025-05-23T23:59 HTTP/1.1" 200 -
+2025-05-23 00:13:06,613 - INFO - 127.0.0.1 - - [23/May/2025 00:13:06] "GET /api/pronostico?fecha_inicio=2025-05-23T00:00&fecha_fin=2025-05-23T23:59 HTTP/1.1" 200 -
+2025-05-23 00:13:06,654 - INFO - 127.0.0.1 - - [23/May/2025 00:13:06] "GET /api/pronostico?fecha_inicio=2025-05-23T00:00&fecha_fin=2025-05-23T23:59 HTTP/1.1" 200 -
+2025-05-23 00:13:06,686 - INFO - 127.0.0.1 - - [23/May/2025 00:13:06] "GET /api/pronostico?fecha_inicio=2025-05-23T00:00&fecha_fin=2025-05-23T23:59 HTTP/1.1" 200 -
+2025-05-23 00:13:06,747 - INFO - 127.0.0.1 - - [23/May/2025 00:13:06] "GET /api/pronostico?fecha_inicio=2025-05-23T00:00&fecha_fin=2025-05-23T23:59 HTTP/1.1" 200 -
+2025-05-23 00:13:09,066 - INFO - Iniciando ejecución completa: 2025-05-23 00:13:09
+2025-05-23 00:13:09,067 - INFO - ==================================================
+2025-05-23 00:13:09,067 - INFO - INICIANDO ANÁLISIS BÁSICO DE SENSORES
+2025-05-23 00:13:09,067 - INFO - ==================================================
+2025-05-23 00:13:09,068 - INFO - [OK] Análisis básico de sensores completado exitosamente. Reporte generado: reportes/reporte_sensores_20250523_001309.txt
+2025-05-23 00:13:09,068 - INFO - ==================================================
+2025-05-23 00:13:09,069 - INFO - INICIANDO CONTROL DE CALIDAD
+2025-05-23 00:13:09,069 - INFO - ==================================================
+2025-05-23 00:13:11,883 - INFO - [OK] Control de calidad completado exitosamente. Reporte generado: reportes/reporte_control_calidad_20250523_001311.txt
+2025-05-23 00:13:11,883 - INFO - ==================================================
+2025-05-23 00:13:11,883 - INFO - INICIANDO ANÁLISIS DE PRONÓSTICOS
+2025-05-23 00:13:11,884 - INFO - ==================================================
+2025-05-23 00:13:11,884 - INFO - Procesando datos para pronósticos...
+2025-05-23 00:13:11,954 - INFO - Datos procesados guardados en datos_procesados/datos_procesados.csv
+2025-05-23 00:13:11,954 - INFO - Registros procesados: 399
+2025-05-23 00:13:32,091 - INFO - [OK] Análisis de pronósticos completado exitosamente. Reporte generado: reportes/reporte_pronosticos_20250523_001332.txt
+2025-05-23 00:13:32,092 - INFO - ==================================================
+2025-05-23 00:13:32,093 - INFO - RESUMEN DE EJECUCIÓN
+2025-05-23 00:13:32,093 - INFO - ==================================================
+2025-05-23 00:13:32,093 - INFO - Tiempo total de ejecución: 23.03 segundos
+2025-05-23 00:13:32,095 - INFO - Reporte final generado: reportes/reporte_resumen_final_20250523_001332.txt
+2025-05-23 00:13:32,095 - INFO - 
+[OK] Todos los análisis se completaron exitosamente
+2025-05-23 00:13:32,194 - INFO - 127.0.0.1 - - [23/May/2025 00:13:32] "GET / HTTP/1.1" 200 -
+2025-05-23 00:13:32,229 - INFO - 127.0.0.1 - - [23/May/2025 00:13:32] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-05-23 00:13:32,232 - INFO - 127.0.0.1 - - [23/May/2025 00:13:32] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+2025-05-23 00:14:58,368 - INFO - 127.0.0.1 - - [23/May/2025 00:14:58] "GET / HTTP/1.1" 200 -
+2025-05-23 00:14:58,392 - INFO - 127.0.0.1 - - [23/May/2025 00:14:58] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-05-23 00:14:58,393 - INFO - 127.0.0.1 - - [23/May/2025 00:14:58] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+2025-05-23 00:15:00,676 - INFO - 127.0.0.1 - - [23/May/2025 00:15:00] "GET /api/mareas_hoy HTTP/1.1" 200 -
+2025-05-23 00:15:00,694 - INFO - 127.0.0.1 - - [23/May/2025 00:15:00] "GET /api/pronostico/hoy HTTP/1.1" 200 -
+2025-05-23 00:15:00,703 - INFO - 127.0.0.1 - - [23/May/2025 00:15:00] "GET /api/pronostico?fecha_inicio=2025-05-23T00:00&fecha_fin=2025-05-23T23:59 HTTP/1.1" 200 -
+2025-05-23 00:15:00,723 - INFO - 127.0.0.1 - - [23/May/2025 00:15:00] "GET /api/pronostico?fecha_inicio=2025-05-23T00:00&fecha_fin=2025-05-23T23:59 HTTP/1.1" 200 -
+2025-05-23 00:15:08,851 - INFO - 127.0.0.1 - - [23/May/2025 00:15:08] "GET /api/mareas_hoy HTTP/1.1" 200 -
+2025-05-23 00:15:08,897 - INFO - 127.0.0.1 - - [23/May/2025 00:15:08] "GET /api/pronostico/hoy HTTP/1.1" 200 -
+2025-05-23 00:15:08,898 - INFO - 127.0.0.1 - - [23/May/2025 00:15:08] "GET /api/pronostico?fecha_inicio=2025-05-23T00:00&fecha_fin=2025-05-23T23:59 HTTP/1.1" 200 -
+2025-05-23 00:15:08,935 - INFO - 127.0.0.1 - - [23/May/2025 00:15:08] "GET /api/pronostico?fecha_inicio=2025-05-23T00:00&fecha_fin=2025-05-23T23:59 HTTP/1.1" 200 -
+2025-05-23 00:15:11,589 - INFO - 127.0.0.1 - - [23/May/2025 00:15:11] "GET /api/mareas_hoy HTTP/1.1" 200 -
+2025-05-23 00:15:11,623 - INFO - 127.0.0.1 - - [23/May/2025 00:15:11] "GET /api/pronostico/hoy HTTP/1.1" 200 -
+2025-05-23 00:15:11,625 - INFO - 127.0.0.1 - - [23/May/2025 00:15:11] "GET /api/pronostico?fecha_inicio=2025-05-23T00:00&fecha_fin=2025-05-23T23:59 HTTP/1.1" 200 -
+2025-05-23 00:15:11,656 - INFO - 127.0.0.1 - - [23/May/2025 00:15:11] "GET /api/pronostico?fecha_inicio=2025-05-23T00:00&fecha_fin=2025-05-23T23:59 HTTP/1.1" 200 -
+2025-05-23 00:15:15,258 - INFO - 127.0.0.1 - - [23/May/2025 00:15:15] "GET / HTTP/1.1" 200 -
+2025-05-23 00:15:15,281 - INFO - 127.0.0.1 - - [23/May/2025 00:15:15] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-05-23 00:15:15,283 - INFO - 127.0.0.1 - - [23/May/2025 00:15:15] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+2025-05-23 00:15:16,976 - INFO - 127.0.0.1 - - [23/May/2025 00:15:16] "GET /api/mareas_hoy HTTP/1.1" 200 -
+2025-05-23 00:15:16,991 - INFO - 127.0.0.1 - - [23/May/2025 00:15:16] "GET /api/pronostico?fecha_inicio=2025-05-23T00:00&fecha_fin=2025-05-23T23:59 HTTP/1.1" 200 -
+2025-05-23 00:15:17,009 - INFO - 127.0.0.1 - - [23/May/2025 00:15:17] "GET /api/pronostico/hoy HTTP/1.1" 200 -
+2025-05-23 00:15:17,037 - INFO - 127.0.0.1 - - [23/May/2025 00:15:17] "GET /api/pronostico?fecha_inicio=2025-05-23T00:00&fecha_fin=2025-05-23T23:59 HTTP/1.1" 200 -
+2025-05-23 00:15:30,020 - INFO - 127.0.0.1 - - [23/May/2025 00:15:30] "GET /admin/alertas?fecha_inicio=2025-05-23T00:00&fecha_fin=2025-05-23T23:59 HTTP/1.1" 200 -
+2025-05-23 00:17:12,965 - INFO - 127.0.0.1 - - [23/May/2025 00:17:12] "GET / HTTP/1.1" 200 -
+2025-05-23 00:17:12,990 - INFO - 127.0.0.1 - - [23/May/2025 00:17:12] "GET /static/css/style.css HTTP/1.1" 200 -
+2025-05-23 00:17:12,991 - INFO - 127.0.0.1 - - [23/May/2025 00:17:12] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+2025-05-23 00:17:16,978 - INFO - 127.0.0.1 - - [23/May/2025 00:17:16] "GET /api/mareas_hoy HTTP/1.1" 200 -
+2025-05-23 00:17:17,006 - INFO - 127.0.0.1 - - [23/May/2025 00:17:17] "GET /api/pronostico/hoy HTTP/1.1" 200 -
+2025-05-23 00:17:17,018 - INFO - 127.0.0.1 - - [23/May/2025 00:17:17] "GET /api/pronostico?fecha_inicio=2025-05-23T00:00&fecha_fin=2025-05-23T23:59 HTTP/1.1" 200 -
+2025-05-23 00:17:17,045 - INFO - 127.0.0.1 - - [23/May/2025 00:17:17] "GET /api/pronostico?fecha_inicio=2025-05-23T00:00&fecha_fin=2025-05-23T23:59 HTTP/1.1" 200 -
+2025-05-23 00:17:23,584 - INFO - 127.0.0.1 - - [23/May/2025 00:17:23] "GET /api/mareas_hoy HTTP/1.1" 200 -
+2025-05-23 00:17:23,628 - INFO - 127.0.0.1 - - [23/May/2025 00:17:23] "GET /api/pronostico/hoy HTTP/1.1" 200 -
+2025-05-23 00:17:23,632 - INFO - 127.0.0.1 - - [23/May/2025 00:17:23] "GET /api/pronostico?fecha_inicio=2025-05-23T00:00&fecha_fin=2025-05-23T23:59 HTTP/1.1" 200 -
+2025-05-23 00:17:23,667 - INFO - 127.0.0.1 - - [23/May/2025 00:17:23] "GET /api/pronostico?fecha_inicio=2025-05-23T00:00&fecha_fin=2025-05-23T23:59 HTTP/1.1" 200 -
+2025-05-23 00:17:31,202 - INFO - 127.0.0.1 - - [23/May/2025 00:17:31] "GET / HTTP/1.1" 200 -
+2025-05-23 00:17:31,224 - INFO - 127.0.0.1 - - [23/May/2025 00:17:31] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-05-23 00:17:31,225 - INFO - 127.0.0.1 - - [23/May/2025 00:17:31] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+2025-05-23 00:17:32,844 - INFO - 127.0.0.1 - - [23/May/2025 00:17:32] "GET /api/mareas_hoy HTTP/1.1" 200 -
+2025-05-23 00:17:32,865 - INFO - 127.0.0.1 - - [23/May/2025 00:17:32] "GET /api/pronostico/hoy HTTP/1.1" 200 -
+2025-05-23 00:17:32,879 - INFO - 127.0.0.1 - - [23/May/2025 00:17:32] "GET /api/pronostico?fecha_inicio=2025-05-23T00:00&fecha_fin=2025-05-23T23:59 HTTP/1.1" 200 -
+2025-05-23 00:17:36,362 - INFO - Iniciando ejecución completa: 2025-05-23 00:17:36
+2025-05-23 00:17:36,362 - INFO - ==================================================
+2025-05-23 00:17:36,362 - INFO - INICIANDO ANÁLISIS BÁSICO DE SENSORES
+2025-05-23 00:17:36,362 - INFO - ==================================================
+2025-05-23 00:17:36,364 - INFO - [OK] Análisis básico de sensores completado exitosamente. Reporte generado: reportes/reporte_sensores_20250523_001736.txt
+2025-05-23 00:17:36,364 - INFO - ==================================================
+2025-05-23 00:17:36,365 - INFO - INICIANDO CONTROL DE CALIDAD
+2025-05-23 00:17:36,365 - INFO - ==================================================
+2025-05-23 00:17:39,092 - INFO - [OK] Control de calidad completado exitosamente. Reporte generado: reportes/reporte_control_calidad_20250523_001739.txt
+2025-05-23 00:17:39,093 - INFO - ==================================================
+2025-05-23 00:17:39,093 - INFO - INICIANDO ANÁLISIS DE PRONÓSTICOS
+2025-05-23 00:17:39,093 - INFO - ==================================================
+2025-05-23 00:17:39,094 - INFO - Procesando datos para pronósticos...
+2025-05-23 00:17:39,157 - INFO - Datos procesados guardados en datos_procesados/datos_procesados.csv
+2025-05-23 00:17:39,157 - INFO - Registros procesados: 399
+2025-05-23 00:17:54,719 - INFO - [OK] Análisis de pronósticos completado exitosamente. Reporte generado: reportes/reporte_pronosticos_20250523_001754.txt
+2025-05-23 00:17:54,719 - INFO - ==================================================
+2025-05-23 00:17:54,719 - INFO - RESUMEN DE EJECUCIÓN
+2025-05-23 00:17:54,719 - INFO - ==================================================
+2025-05-23 00:17:54,720 - INFO - Tiempo total de ejecución: 18.36 segundos
+2025-05-23 00:17:54,721 - INFO - Reporte final generado: reportes/reporte_resumen_final_20250523_001754.txt
+2025-05-23 00:17:54,721 - INFO - 
+[OK] Todos los análisis se completaron exitosamente
+2025-05-23 00:17:54,737 - INFO - 127.0.0.1 - - [23/May/2025 00:17:54] "GET /api/pronostico?fecha_inicio=2025-05-23T00:00&fecha_fin=2025-05-23T23:59 HTTP/1.1" 200 -
+2025-05-23 00:19:31,124 - INFO - 127.0.0.1 - - [23/May/2025 00:19:31] "GET / HTTP/1.1" 200 -
+2025-05-23 00:19:31,150 - INFO - 127.0.0.1 - - [23/May/2025 00:19:31] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-05-23 00:19:31,151 - INFO - 127.0.0.1 - - [23/May/2025 00:19:31] "GET /static/js/main.js HTTP/1.1" 200 -
+2025-05-23 00:19:33,004 - INFO - 127.0.0.1 - - [23/May/2025 00:19:33] "GET /api/mareas_hoy HTTP/1.1" 200 -
+2025-05-23 00:19:33,032 - INFO - 127.0.0.1 - - [23/May/2025 00:19:33] "GET /api/pronostico/hoy HTTP/1.1" 200 -
+2025-05-23 00:19:33,034 - INFO - 127.0.0.1 - - [23/May/2025 00:19:33] "GET /api/pronostico?fecha_inicio=2025-05-23T00:00&fecha_fin=2025-05-23T23:59 HTTP/1.1" 200 -
+2025-05-23 00:19:33,060 - INFO - 127.0.0.1 - - [23/May/2025 00:19:33] "GET /api/pronostico?fecha_inicio=2025-05-23T00:00&fecha_fin=2025-05-23T23:59 HTTP/1.1" 200 -
+2025-05-23 00:19:48,501 - INFO - 127.0.0.1 - - [23/May/2025 00:19:48] "GET /admin/alertas?fecha_inicio=2025-05-23T00:00&fecha_fin=2025-05-23T23:59 HTTP/1.1" 200 -
+2025-05-23 00:21:53,594 - INFO - 127.0.0.1 - - [23/May/2025 00:21:53] "GET / HTTP/1.1" 200 -
+2025-05-23 00:21:53,622 - INFO - 127.0.0.1 - - [23/May/2025 00:21:53] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-05-23 00:21:53,624 - INFO - 127.0.0.1 - - [23/May/2025 00:21:53] "GET /static/js/main.js HTTP/1.1" 200 -
+2025-05-23 00:21:55,508 - INFO - 127.0.0.1 - - [23/May/2025 00:21:55] "GET /api/mareas_hoy HTTP/1.1" 200 -
+2025-05-23 00:21:55,534 - INFO - 127.0.0.1 - - [23/May/2025 00:21:55] "GET /api/pronostico?fecha_inicio=2025-05-23T00:00&fecha_fin=2025-05-23T23:59 HTTP/1.1" 200 -
+2025-05-23 00:21:55,549 - INFO - 127.0.0.1 - - [23/May/2025 00:21:55] "GET /api/pronostico/hoy HTTP/1.1" 200 -
+2025-05-23 00:21:55,579 - INFO - 127.0.0.1 - - [23/May/2025 00:21:55] "GET /api/pronostico?fecha_inicio=2025-05-23T00:00&fecha_fin=2025-05-23T23:59 HTTP/1.1" 200 -
+2025-05-23 00:22:07,805 - INFO - 127.0.0.1 - - [23/May/2025 00:22:07] "GET /api/mareas_hoy HTTP/1.1" 200 -
+2025-05-23 00:22:07,848 - INFO - 127.0.0.1 - - [23/May/2025 00:22:07] "GET /api/pronostico/hoy HTTP/1.1" 200 -
+2025-05-23 00:22:07,851 - INFO - 127.0.0.1 - - [23/May/2025 00:22:07] "GET /api/pronostico?fecha_inicio=2025-05-23T00:00&fecha_fin=2025-05-23T23:59 HTTP/1.1" 200 -
+2025-05-23 00:22:07,895 - INFO - 127.0.0.1 - - [23/May/2025 00:22:07] "GET /api/pronostico?fecha_inicio=2025-05-23T00:00&fecha_fin=2025-05-23T23:59 HTTP/1.1" 200 -
+2025-05-23 00:22:14,470 - INFO - 127.0.0.1 - - [23/May/2025 00:22:14] "GET /api/mareas_hoy HTTP/1.1" 200 -
+2025-05-23 00:22:14,483 - INFO - 127.0.0.1 - - [23/May/2025 00:22:14] "GET /api/pronostico?fecha_inicio=2025-05-23T00:00&fecha_fin=2025-05-23T23:59 HTTP/1.1" 200 -
+2025-05-23 00:22:14,518 - INFO - 127.0.0.1 - - [23/May/2025 00:22:14] "GET /api/pronostico?fecha_inicio=2025-05-23T00:00&fecha_fin=2025-05-23T23:59 HTTP/1.1" 200 -
+2025-05-23 00:22:20,011 - INFO - 127.0.0.1 - - [23/May/2025 00:22:20] "GET / HTTP/1.1" 200 -
+2025-05-23 00:22:20,035 - INFO - 127.0.0.1 - - [23/May/2025 00:22:20] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-05-23 00:22:20,037 - INFO - 127.0.0.1 - - [23/May/2025 00:22:20] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+2025-05-23 00:22:34,275 - INFO - 127.0.0.1 - - [23/May/2025 00:22:34] "GET / HTTP/1.1" 200 -
+2025-05-23 00:22:34,305 - INFO - 127.0.0.1 - - [23/May/2025 00:22:34] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-05-23 00:22:34,306 - INFO - 127.0.0.1 - - [23/May/2025 00:22:34] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+2025-05-23 00:22:38,047 - INFO - 127.0.0.1 - - [23/May/2025 00:22:38] "GET /api/mareas_hoy HTTP/1.1" 200 -
+2025-05-23 00:22:38,070 - INFO - 127.0.0.1 - - [23/May/2025 00:22:38] "GET /api/pronostico?fecha_inicio=2025-05-23T00:00&fecha_fin=2025-05-23T23:59 HTTP/1.1" 200 -
+2025-05-23 00:22:38,071 - INFO - 127.0.0.1 - - [23/May/2025 00:22:38] "GET /api/pronostico/hoy HTTP/1.1" 200 -
+2025-05-23 00:22:38,112 - INFO - 127.0.0.1 - - [23/May/2025 00:22:38] "GET /api/pronostico?fecha_inicio=2025-05-23T00:00&fecha_fin=2025-05-23T23:59 HTTP/1.1" 200 -
+2025-05-23 00:22:53,487 - INFO - 127.0.0.1 - - [23/May/2025 00:22:53] "GET /admin/alertas?fecha_inicio=2025-05-23T00:00&fecha_fin=2025-05-23T23:59 HTTP/1.1" 200 -
+2025-05-23 00:23:03,877 - INFO - 127.0.0.1 - - [23/May/2025 00:23:03] "GET / HTTP/1.1" 200 -
+2025-05-23 00:23:03,900 - INFO - 127.0.0.1 - - [23/May/2025 00:23:03] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-05-23 00:23:03,901 - INFO - 127.0.0.1 - - [23/May/2025 00:23:03] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+2025-05-23 00:26:12,923 - INFO - 127.0.0.1 - - [23/May/2025 00:26:12] "GET / HTTP/1.1" 200 -
+2025-05-23 00:26:12,946 - INFO - 127.0.0.1 - - [23/May/2025 00:26:12] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-05-23 00:26:12,947 - INFO - 127.0.0.1 - - [23/May/2025 00:26:12] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+2025-05-23 00:26:14,425 - INFO - 127.0.0.1 - - [23/May/2025 00:26:14] "GET /api/mareas_hoy HTTP/1.1" 200 -
+2025-05-23 00:26:14,467 - INFO - 127.0.0.1 - - [23/May/2025 00:26:14] "GET /api/pronostico/hoy HTTP/1.1" 200 -
+2025-05-23 00:26:14,470 - INFO - 127.0.0.1 - - [23/May/2025 00:26:14] "GET /api/pronostico?fecha_inicio=2025-05-23T00:00&fecha_fin=2025-05-23T23:59 HTTP/1.1" 200 -
+2025-05-23 00:26:14,506 - INFO - 127.0.0.1 - - [23/May/2025 00:26:14] "GET /api/pronostico?fecha_inicio=2025-05-23T00:00&fecha_fin=2025-05-23T23:59 HTTP/1.1" 200 -
+2025-05-23 00:26:44,555 - INFO - 127.0.0.1 - - [23/May/2025 00:26:44] "GET /api/pronostico?fecha_inicio=2025-05-23T00:00&fecha_fin=2025-05-23T23:59 HTTP/1.1" 200 -
+2025-05-23 00:27:00,354 - INFO - 127.0.0.1 - - [23/May/2025 00:27:00] "GET /admin/alertas?fecha_inicio=2025-05-23T00:00&fecha_fin=2025-05-23T23:59 HTTP/1.1" 200 -
+2025-05-23 00:27:17,258 - INFO - Iniciando ejecución completa: 2025-05-23 00:27:17
+2025-05-23 00:27:17,259 - INFO - ==================================================
+2025-05-23 00:27:17,259 - INFO - INICIANDO ANÁLISIS BÁSICO DE SENSORES
+2025-05-23 00:27:17,259 - INFO - ==================================================
+2025-05-23 00:27:17,260 - INFO - [OK] Análisis básico de sensores completado exitosamente. Reporte generado: reportes/reporte_sensores_20250523_002717.txt
+2025-05-23 00:27:17,260 - INFO - ==================================================
+2025-05-23 00:27:17,269 - INFO - INICIANDO CONTROL DE CALIDAD
+2025-05-23 00:27:17,269 - INFO - ==================================================
+2025-05-23 00:27:18,958 - INFO - [OK] Control de calidad completado exitosamente. Reporte generado: reportes/reporte_control_calidad_20250523_002718.txt
+2025-05-23 00:27:18,959 - INFO - ==================================================
+2025-05-23 00:27:18,959 - INFO - INICIANDO ANÁLISIS DE PRONÓSTICOS
+2025-05-23 00:27:18,959 - INFO - ==================================================
+2025-05-23 00:27:18,959 - INFO - Procesando datos para pronósticos...
+2025-05-23 00:27:19,000 - INFO - Datos procesados guardados en datos_procesados/datos_procesados.csv
+2025-05-23 00:27:19,000 - INFO - Registros procesados: 399
+2025-05-23 00:27:31,275 - INFO - [OK] Análisis de pronósticos completado exitosamente. Reporte generado: reportes/reporte_pronosticos_20250523_002731.txt
+2025-05-23 00:27:31,275 - INFO - ==================================================
+2025-05-23 00:27:31,275 - INFO - RESUMEN DE EJECUCIÓN
+2025-05-23 00:27:31,275 - INFO - ==================================================
+2025-05-23 00:27:31,276 - INFO - Tiempo total de ejecución: 14.02 segundos
+2025-05-23 00:27:31,277 - INFO - Reporte final generado: reportes/reporte_resumen_final_20250523_002731.txt
+2025-05-23 00:27:31,277 - INFO - 
+[OK] Todos los análisis se completaron exitosamente
+2025-05-23 00:27:31,294 - INFO - 127.0.0.1 - - [23/May/2025 00:27:31] "GET /api/pronostico?fecha_inicio=2025-05-23T00:00&fecha_fin=2025-05-23T23:59 HTTP/1.1" 200 -
+2025-05-23 00:28:02,208 - INFO - 127.0.0.1 - - [23/May/2025 00:28:02] "GET /api/pronostico?fecha_inicio=2025-05-23T00:00&fecha_fin=2025-05-23T23:59 HTTP/1.1" 200 -
+2025-05-23 00:28:31,966 - INFO - 127.0.0.1 - - [23/May/2025 00:28:31] "GET / HTTP/1.1" 200 -
+2025-05-23 00:28:31,990 - INFO - 127.0.0.1 - - [23/May/2025 00:28:31] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-05-23 00:28:31,992 - INFO - 127.0.0.1 - - [23/May/2025 00:28:31] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+2025-05-23 00:28:33,531 - INFO - 127.0.0.1 - - [23/May/2025 00:28:33] "GET /api/mareas_hoy HTTP/1.1" 200 -
+2025-05-23 00:28:33,556 - INFO - 127.0.0.1 - - [23/May/2025 00:28:33] "GET /api/pronostico/hoy HTTP/1.1" 200 -
+2025-05-23 00:28:33,560 - INFO - 127.0.0.1 - - [23/May/2025 00:28:33] "GET /api/pronostico?fecha_inicio=2025-05-23T00:00&fecha_fin=2025-05-23T23:59 HTTP/1.1" 200 -
+2025-05-23 00:28:33,588 - INFO - 127.0.0.1 - - [23/May/2025 00:28:33] "GET /api/pronostico?fecha_inicio=2025-05-23T00:00&fecha_fin=2025-05-23T23:59 HTTP/1.1" 200 -
+2025-05-23 00:29:03,522 - INFO - 127.0.0.1 - - [23/May/2025 00:29:03] "GET /api/mareas_hoy HTTP/1.1" 200 -
+2025-05-23 00:29:03,537 - INFO - 127.0.0.1 - - [23/May/2025 00:29:03] "GET /api/pronostico?fecha_inicio=2025-05-22T00:00&fecha_fin=2025-05-23T23:59 HTTP/1.1" 200 -
+2025-05-23 00:29:03,572 - INFO - 127.0.0.1 - - [23/May/2025 00:29:03] "GET /api/pronostico?fecha_inicio=2025-05-22T00:00&fecha_fin=2025-05-23T23:59 HTTP/1.1" 200 -
+2025-05-23 00:29:22,353 - INFO - 127.0.0.1 - - [23/May/2025 00:29:22] "GET /api/mareas_hoy HTTP/1.1" 200 -
+2025-05-23 00:29:22,381 - INFO - 127.0.0.1 - - [23/May/2025 00:29:22] "GET /api/pronostico/hoy HTTP/1.1" 200 -
+2025-05-23 00:29:22,394 - INFO - 127.0.0.1 - - [23/May/2025 00:29:22] "GET /api/pronostico?fecha_inicio=2025-05-23T00:00&fecha_fin=2025-05-23T23:59 HTTP/1.1" 200 -
+2025-05-23 00:29:22,425 - INFO - 127.0.0.1 - - [23/May/2025 00:29:22] "GET /api/pronostico?fecha_inicio=2025-05-23T00:00&fecha_fin=2025-05-23T23:59 HTTP/1.1" 200 -
+2025-05-23 00:29:28,119 - INFO - 127.0.0.1 - - [23/May/2025 00:29:28] "GET /api/mareas_hoy HTTP/1.1" 200 -
+2025-05-23 00:29:28,138 - INFO - 127.0.0.1 - - [23/May/2025 00:29:28] "GET /api/pronostico?fecha_inicio=2025-05-23T00:00&fecha_fin=2025-05-23T23:59 HTTP/1.1" 200 -
+2025-05-23 00:29:28,167 - INFO - 127.0.0.1 - - [23/May/2025 00:29:28] "GET /api/pronostico?fecha_inicio=2025-05-23T00:00&fecha_fin=2025-05-23T23:59 HTTP/1.1" 200 -
+2025-05-23 00:29:29,017 - INFO - 127.0.0.1 - - [23/May/2025 00:29:29] "GET /api/mareas_hoy HTTP/1.1" 200 -
+2025-05-23 00:29:29,035 - INFO - 127.0.0.1 - - [23/May/2025 00:29:29] "GET /api/pronostico?fecha_inicio=2025-05-23T00:00&fecha_fin=2025-05-23T23:59 HTTP/1.1" 200 -
+2025-05-23 00:29:29,070 - INFO - 127.0.0.1 - - [23/May/2025 00:29:29] "GET /api/pronostico?fecha_inicio=2025-05-23T00:00&fecha_fin=2025-05-23T23:59 HTTP/1.1" 200 -
+2025-05-23 00:29:34,813 - INFO - 127.0.0.1 - - [23/May/2025 00:29:34] "GET /api/mareas_hoy HTTP/1.1" 200 -
+2025-05-23 00:29:34,825 - INFO - 127.0.0.1 - - [23/May/2025 00:29:34] "GET /api/pronostico?fecha_inicio=2025-05-22T00:00&fecha_fin=2025-05-23T23:59 HTTP/1.1" 200 -
+2025-05-23 00:29:34,854 - INFO - 127.0.0.1 - - [23/May/2025 00:29:34] "GET /api/pronostico?fecha_inicio=2025-05-22T00:00&fecha_fin=2025-05-23T23:59 HTTP/1.1" 200 -
+2025-05-23 00:29:43,761 - INFO - 127.0.0.1 - - [23/May/2025 00:29:43] "GET /api/mareas_hoy HTTP/1.1" 200 -
+2025-05-23 00:29:43,800 - INFO - 127.0.0.1 - - [23/May/2025 00:29:43] "GET /api/pronostico/hoy HTTP/1.1" 200 -
+2025-05-23 00:29:43,802 - INFO - 127.0.0.1 - - [23/May/2025 00:29:43] "GET /api/pronostico?fecha_inicio=2025-05-23T00:00&fecha_fin=2025-05-23T23:59 HTTP/1.1" 200 -
+2025-05-23 00:29:43,834 - INFO - 127.0.0.1 - - [23/May/2025 00:29:43] "GET /api/pronostico?fecha_inicio=2025-05-23T00:00&fecha_fin=2025-05-23T23:59 HTTP/1.1" 200 -
+2025-05-23 00:30:13,975 - INFO - 127.0.0.1 - - [23/May/2025 00:30:13] "GET / HTTP/1.1" 200 -
+2025-05-23 00:30:14,002 - INFO - 127.0.0.1 - - [23/May/2025 00:30:14] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-05-23 00:30:14,004 - INFO - 127.0.0.1 - - [23/May/2025 00:30:14] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+2025-05-23 00:30:17,329 - INFO - 127.0.0.1 - - [23/May/2025 00:30:17] "GET /api/mareas_hoy HTTP/1.1" 200 -
+2025-05-23 00:30:17,370 - INFO - 127.0.0.1 - - [23/May/2025 00:30:17] "GET /api/pronostico/hoy HTTP/1.1" 200 -
+2025-05-23 00:30:17,372 - INFO - 127.0.0.1 - - [23/May/2025 00:30:17] "GET /api/pronostico?fecha_inicio=2025-05-23T00:00&fecha_fin=2025-05-23T23:59 HTTP/1.1" 200 -
+2025-05-23 00:30:17,404 - INFO - 127.0.0.1 - - [23/May/2025 00:30:17] "GET /api/pronostico?fecha_inicio=2025-05-23T00:00&fecha_fin=2025-05-23T23:59 HTTP/1.1" 200 -
+2025-05-23 00:30:22,982 - INFO - 127.0.0.1 - - [23/May/2025 00:30:22] "GET /admin/alertas?fecha_inicio=2025-05-23T00:00&fecha_fin=2025-05-23T23:59 HTTP/1.1" 200 -
+2025-05-23 00:30:30,202 - INFO - 127.0.0.1 - - [23/May/2025 00:30:30] "GET /admin/alertas?fecha_inicio=2025-05-23T00:00&fecha_fin=2025-05-23T23:59 HTTP/1.1" 200 -
+2025-05-23 00:30:48,270 - INFO - 127.0.0.1 - - [23/May/2025 00:30:48] "GET / HTTP/1.1" 200 -
+2025-05-23 00:30:48,302 - INFO - 127.0.0.1 - - [23/May/2025 00:30:48] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-05-23 00:30:48,303 - INFO - 127.0.0.1 - - [23/May/2025 00:30:48] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+2025-05-23 00:31:46,812 - INFO - Iniciando ejecución completa: 2025-05-23 00:31:46
+2025-05-23 00:31:46,812 - INFO - ==================================================
+2025-05-23 00:31:46,813 - INFO - INICIANDO ANÁLISIS BÁSICO DE SENSORES
+2025-05-23 00:31:46,813 - INFO - ==================================================
+2025-05-23 00:31:46,813 - INFO - [OK] Análisis básico de sensores completado exitosamente. Reporte generado: reportes/reporte_sensores_20250523_003146.txt
+2025-05-23 00:31:46,814 - INFO - ==================================================
+2025-05-23 00:31:46,814 - INFO - INICIANDO CONTROL DE CALIDAD
+2025-05-23 00:31:46,814 - INFO - ==================================================
+2025-05-23 00:31:47,108 - INFO - 127.0.0.1 - - [23/May/2025 00:31:47] "GET /admin/alertas HTTP/1.1" 200 -
+2025-05-23 00:31:49,335 - INFO - [OK] Control de calidad completado exitosamente. Reporte generado: reportes/reporte_control_calidad_20250523_003149.txt
+2025-05-23 00:31:49,336 - INFO - ==================================================
+2025-05-23 00:31:49,336 - INFO - INICIANDO ANÁLISIS DE PRONÓSTICOS
+2025-05-23 00:31:49,336 - INFO - ==================================================
+2025-05-23 00:31:49,337 - INFO - Procesando datos para pronósticos...
+2025-05-23 00:31:49,401 - INFO - Datos procesados guardados en datos_procesados/datos_procesados.csv
+2025-05-23 00:31:49,402 - INFO - Registros procesados: 399
+2025-05-23 00:31:59,081 - INFO - 127.0.0.1 - - [23/May/2025 00:31:59] "GET /admin/alertas HTTP/1.1" 200 -
+2025-05-23 00:32:08,360 - INFO - [OK] Análisis de pronósticos completado exitosamente. Reporte generado: reportes/reporte_pronosticos_20250523_003208.txt
+2025-05-23 00:32:08,360 - INFO - ==================================================
+2025-05-23 00:32:08,360 - INFO - RESUMEN DE EJECUCIÓN
+2025-05-23 00:32:08,361 - INFO - ==================================================
+2025-05-23 00:32:08,361 - INFO - Tiempo total de ejecución: 21.55 segundos
+2025-05-23 00:32:08,362 - INFO - Reporte final generado: reportes/reporte_resumen_final_20250523_003208.txt
+2025-05-23 00:32:08,362 - INFO - 
+[OK] Todos los análisis se completaron exitosamente
+2025-05-23 00:32:08,429 - INFO - 127.0.0.1 - - [23/May/2025 00:32:08] "GET / HTTP/1.1" 200 -
+2025-05-23 00:32:08,467 - INFO - 127.0.0.1 - - [23/May/2025 00:32:08] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-05-23 00:32:08,469 - INFO - 127.0.0.1 - - [23/May/2025 00:32:08] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+2025-05-23 00:35:14,537 - INFO - 127.0.0.1 - - [23/May/2025 00:35:14] "GET /api/mareas_hoy HTTP/1.1" 200 -
+2025-05-23 00:35:14,562 - INFO - 127.0.0.1 - - [23/May/2025 00:35:14] "GET /api/pronostico/hoy HTTP/1.1" 200 -
+2025-05-23 00:35:14,564 - INFO - 127.0.0.1 - - [23/May/2025 00:35:14] "GET /api/pronostico?fecha_inicio=2025-05-23T00:00&fecha_fin=2025-05-23T23:59 HTTP/1.1" 200 -
+2025-05-23 00:35:14,590 - INFO - 127.0.0.1 - - [23/May/2025 00:35:14] "GET /api/pronostico?fecha_inicio=2025-05-23T00:00&fecha_fin=2025-05-23T23:59 HTTP/1.1" 200 -
+2025-05-23 00:35:45,286 - INFO - 127.0.0.1 - - [23/May/2025 00:35:45] "GET / HTTP/1.1" 200 -
+2025-05-23 00:35:45,305 - INFO - 127.0.0.1 - - [23/May/2025 00:35:45] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-05-23 00:35:45,307 - INFO - 127.0.0.1 - - [23/May/2025 00:35:45] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -

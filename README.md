@@ -58,7 +58,7 @@ PredictMareas es una plataforma web integral para el monitoreo, análisis y pron
 4. **Configura la clave de Google Maps:**
    - Crea un archivo `config.py` en la raíz con:
      ```python
-     GOOGLE_MAPS_API_KEY = 'TU_CLAVE_API_DE_GOOGLE_MAPS'
+     GOOGLE_MAPS_API_KEY = 'AIzaSyCLZHCoAoHfgJWwGJkFqextPFyji8147Ig'
      ```
    - Obtén la clave en [Google Cloud Console](https://console.cloud.google.com/)
 
@@ -196,4 +196,4 @@ Equipo de desarrollo PredictMareas
 
 Alfredo Herrera Figueroa - a.herrerafigueroa@uandresbello.edu
 
-Link del Proyecto: [https://github.com/tu-usuario/tu-repositorio](https://github.com/tu-usuario/tu-repositorio) 
+Link del Proyecto: [https://github.com/alfredo802/Tesis_final_2.0](https://github.com/alfredo802/Tesis_final_2.0) 

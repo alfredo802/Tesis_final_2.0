@@ -293,6 +293,16 @@ def admin_alertas():
     if df is None:
         return jsonify([])
     df['fecha_dia'] = df['fecha'].dt.date
+    # Filtrar por rango si se proporcionan parámetros
+    fecha_inicio = request.args.get('fecha_inicio')
+    fecha_fin = request.args.get('fecha_fin')
+    if fecha_inicio and fecha_fin:
+        try:
+            fecha_inicio = pd.to_datetime(fecha_inicio).date()
+            fecha_fin = pd.to_datetime(fecha_fin).date()
+            df = df[(df['fecha_dia'] >= fecha_inicio) & (df['fecha_dia'] <= fecha_fin)]
+        except Exception:
+            pass
     alertas = []
     for fecha, grupo in df.groupby('fecha_dia'):
         max_valor = grupo['keller_pronostico'].max()
