@@ -1,0 +1,71 @@
+MANUAL DE USUARIO
+Plataforma PredictMareas – Sistema de Predicción y Análisis de Mareas  
+URL de acceso: http://localhost:5000/
+
+------------------------------------------------------
+1. INTRODUCCIÓN
+------------------------------------------------------
+PredictMareas permite consultar, analizar y pronosticar mareas en Valparaíso a través de la web. Acceso general y administrativo disponible.
+
+------------------------------------------------------
+2. PÚBLICO OBJETIVO
+------------------------------------------------------
+- Operadores portuarios, autoridades marítimas, personal técnico, usuarios administrativos y analistas.
+
+------------------------------------------------------
+3. ACCESO AL SISTEMA
+------------------------------------------------------
+- Abre tu navegador y entra a: http://localhost:5000/
+- Para acceso admin, usa "Administrador" o http://localhost:5000/login
+
+------------------------------------------------------
+4. INTERFAZ Y NAVEGACIÓN
+------------------------------------------------------
+Página principal:
+- Consulta de pronóstico: selecciona fechas/hora y pulsa "Consultar".
+- Botón "Ver Hoy": muestra predicción del día.
+- Gráfico principal: altura de marea vs. tiempo, con alertas si supera umbral.
+- Info del puerto: ubicación, coordenadas, pleamar/bajamar, altura actual.
+- Mapa: localización del puerto.
+
+Panel administrativo (tras login):
+- Galería de gráficos.
+- Descarga de reportes, logs, alertas.
+- Historial de visitas y alertas.
+- Descarga de históricos en TXT.
+
+------------------------------------------------------
+5. FUNCIONES PRINCIPALES
+------------------------------------------------------
+- Consultar pronóstico para cualquier fecha/hora.
+- Descargar gráficos y reportes.
+- Recibir alertas automáticas por mareas altas.
+- Consultar y descargar histórico de alertas y visitas.
+
+------------------------------------------------------
+6. PREGUNTAS FRECUENTES
+------------------------------------------------------
+- Web no carga: verifica servidor en puerto 5000.
+- No aparecen reportes: ejecuta los scripts antes.
+- No accede como admin: revisa credenciales o solicita ayuda.
+
+------------------------------------------------------
+7. SEGURIDAD
+------------------------------------------------------
+- Cambia la contraseña regularmente (admin).
+- No compartas credenciales.
+- Cierra sesión tras uso administrativo.
+
+------------------------------------------------------
+8. SOPORTE
+------------------------------------------------------
+Consulta al encargado del sistema en caso de problemas.
+
+------------------------------------------------------
+9. GLOSARIO
+------------------------------------------------------
+Pleamar: punto máximo de la marea.
+Bajamar: punto mínimo.
+Pronóstico: estimación futura calculada por IA.
+Alerta: aviso automático por mareas riesgosas.
+Panel Admin: interfaz de administración.

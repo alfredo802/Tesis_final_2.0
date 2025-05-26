@@ -1,0 +1,102 @@
+MANUAL DE INSTALACIÓN
+Plataforma PredictMareas – Sistema de Predicción de Mareas  
+Acceso web: http://localhost:5000/
+
+------------------------------------------------------
+1. INTRODUCCIÓN
+------------------------------------------------------
+Este manual describe la instalación y puesta en marcha de PredictMareas, sistema web en Python para pronóstico y análisis de mareas. Incluye scripts para procesamiento y una interfaz web para consulta, descarga y administración.
+
+------------------------------------------------------
+2. ESTRUCTURA DEL PROYECTO
+------------------------------------------------------
+Carpetas y archivos principales:
+
+PredictMareas/
+├── rutina_sensores.py
+├── control_calidad.py
+├── pronostico_sensores.py
+├── datos/valpoall.txt
+├── database/pronosticos.db
+├── resultados/
+├── reportes/
+├── templates/index.html, admin.html, login.html
+├── static/css/style.css
+├── requirements.txt
+├── app.py (o main.py)
+└── ...
+
+La web corre en: http://localhost:5000/
+
+------------------------------------------------------
+3. REQUISITOS DEL SISTEMA
+------------------------------------------------------
+- Windows 10+, Ubuntu 20.04+ o MacOS
+- Python 3.9 o superior
+- Pip
+- Navegador web actualizado
+- Librerías de requirements.txt
+
+------------------------------------------------------
+4. INSTALACIÓN PASO A PASO
+------------------------------------------------------
+1. Descarga o clona el proyecto:
+   git clone https://github.com/usuario/PredictMareas.git
+   cd PredictMareas
+
+2. Crea entorno virtual:
+   python -m venv venv
+
+   Activa entorno:
+   - Windows: venv\Scriptsctivate
+   - Linux/Mac: source venv/bin/activate
+
+3. Instala dependencias:
+   pip install -r requirements.txt
+
+4. Prepara datos:
+   - Coloca valpoall.txt en datos/
+   - Los scripts crean la base de datos y resultados automáticamente.
+
+5. Ejecuta scripts de procesamiento:
+   python rutina_sensores.py
+   python control_calidad.py
+   python pronostico_sensores.py
+
+6. Inicia el servidor web:
+   python app.py
+   (o el comando correspondiente)
+   Accede en http://localhost:5000/
+
+------------------------------------------------------
+5. ESTRUCTURA DEL FRONTEND
+------------------------------------------------------
+- Plantillas HTML en /templates/
+- Estilos en /static/css/style.css
+- Bootstrap y Chart.js vía CDN
+
+------------------------------------------------------
+6. USUARIOS Y PANEL ADMINISTRATIVO
+------------------------------------------------------
+- Acceso admin en http://localhost:5000/login
+- Administración desde el Panel Admin tras iniciar sesión
+
+------------------------------------------------------
+7. SOLUCIÓN DE PROBLEMAS
+------------------------------------------------------
+- Web no carga: Revisa servidor activo y puerto correcto.
+- Sin reportes/gráficos: Ejecuta los scripts primero.
+- Errores de módulos: Usa el entorno virtual y revisa dependencias.
+- Permisos: Asegura escritura en carpetas resultados/ y reportes/.
+
+------------------------------------------------------
+8. ACTUALIZACIONES Y MANTENIMIENTO
+------------------------------------------------------
+- Instala dependencias nuevas si cambia requirements.txt.
+- Repite ejecución de scripts con nuevos datos.
+- Haz backup antes de eliminar o actualizar la base de datos.
+
+------------------------------------------------------
+9. SOPORTE
+------------------------------------------------------
+Contacta al responsable técnico ante dudas o errores.

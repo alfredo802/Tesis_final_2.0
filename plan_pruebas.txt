@@ -1,0 +1,65 @@
+PLAN DE PRUEBAS
+Plataforma PredictMareas – Control de Calidad y Validación  
+Acceso: http://localhost:5000/
+
+------------------------------------------------------
+1. OBJETIVO
+------------------------------------------------------
+Asegurar que PredictMareas cumple precisión, funcionalidad, seguridad y rendimiento en http://localhost:5000/.
+
+------------------------------------------------------
+2. TIPOS DE PRUEBAS
+------------------------------------------------------
+- Pruebas funcionales: Consulta de pronóstico, descarga de reportes, login admin, histórico.
+- Pruebas de integración: Scripts actualizan resultados/reportes y la web los muestra correctamente.
+- Pruebas de rendimiento: Respuestas y descargas bajo 3 segundos, soporte multiusuario.
+- Pruebas de control de calidad: Scripts generan reportes y alertas correctas, modelo R2>0.75.
+- Pruebas de seguridad: Login admin protegido, formularios seguros.
+- Pruebas de usabilidad: Interfaz clara y navegable en cualquier dispositivo.
+
+------------------------------------------------------
+3. CASOS DE PRUEBA (EJEMPLO)
+------------------------------------------------------
+Caso: Consulta de hoy
+Pasos: 1. Entrar a la web  2. Pulsar "Ver Hoy"
+Resultado esperado: Gráfica y alerta visible si corresponde.
+
+Caso: Exportar reporte
+Pasos: 1. Panel Admin  2. Descargar reporte
+Resultado esperado: Archivo descargado correctamente.
+
+Caso: Nueva alerta
+Pasos: 1. Consultar fecha de marea >1.70 m
+Resultado esperado: Aparece alerta roja.
+
+Caso: Login admin
+Pasos: 1. Ir a /login  2. Ingresar usuario y clave
+Resultado esperado: Acceso solo válido.
+
+Caso: Script calidad
+Pasos: 1. Ejecutar control_calidad.py
+Resultado esperado: Archivos y gráficos generados correctamente.
+
+------------------------------------------------------
+4. CRITERIOS DE ACEPTACIÓN
+------------------------------------------------------
+- 90% o más de casos aprobados.
+- Precisión y alertas automáticas verificadas.
+- Soporta multiusuario y sin fallos críticos.
+
+------------------------------------------------------
+5. REGISTRO DE PRUEBAS
+------------------------------------------------------
+- Documenta fecha, pasos, resultado, responsable, evidencia (capturas).
+- Corrige errores antes de producción.
+
+------------------------------------------------------
+6. CONSIDERACIONES
+------------------------------------------------------
+- Repite pruebas tras cada actualización.
+- Valida en distintos sistemas y navegadores.
+
+------------------------------------------------------
+7. CONCLUSIÓN
+------------------------------------------------------
+Este plan asegura la confiabilidad y utilidad de PredictMareas.
